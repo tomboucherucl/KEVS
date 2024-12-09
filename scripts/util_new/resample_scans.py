@@ -4,8 +4,6 @@ import os
 import torch
 import torch.nn.functional as F
 
-from tqdm import tqdm
-
 def resample_scan(image_data, original_affine, new_spacing, interpolation_mode='trilinear'):
     """
     General function to resample either images or masks with different interpolation modes.

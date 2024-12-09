@@ -18,7 +18,7 @@ def binary_erode_from_exterior_2d(mask_2d, structuring_element):
     inner_block = filled_mask & ~mask_copy
     orig_num_voxels = np.sum(mask_copy)
     num_voxels = orig_num_voxels
-    while num_voxels > int(orig_num_voxels * 0.5):
+    while num_voxels > int(orig_num_voxels * 0.2):
         filled_mask = binary_erosion(filled_mask, structure=structuring_element)
         true_eroded_sat = filled_mask & ~inner_block
         num_voxels = np.sum(true_eroded_sat)
