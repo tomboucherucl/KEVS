@@ -36,18 +36,9 @@ def binary_erode_from_exterior_2d(mask_2d, structuring_element):
     mask_copy = np.copy(mask_2d)
     filled_mask = binary_fill_holes(mask_copy)
     inner_block = filled_mask & ~ mask_copy
-    
-    print(f"Mask copy: {np.sum(mask_copy)}")
-    print(f"filled_mask: {np.sum(filled_mask)}")
-    print(f"inner_block: {np.sum(inner_block)}")
-    
-    
     orig_num_voxels = np.sum(mask_copy)
     num_voxels = orig_num_voxels
-    
     while num_voxels > int(orig_num_voxels * 0.5):
-        
-        print(num_voxels)
         filled_mask = binary_erosion(filled_mask, structure=structuring_element)
         true_eroded_sat = filled_mask & ~ inner_block
         num_voxels = np.sum(true_eroded_sat)
@@ -55,7 +46,6 @@ def binary_erode_from_exterior_2d(mask_2d, structuring_element):
     return true_eroded_sat
 
 def erode_sat(image, mask, image_dir, mask_dir, saros_mask_dir, kevs_2_pred_dir):
-    time_before = time.time()
     mask_path = os.path.join(mask_dir, mask)
     mask_nii = nib.load(mask_path)
     mask_nii_data = mask_nii.get_fdata()
@@ -178,43 +168,25 @@ def erode_sat(image, mask, image_dir, mask_dir, saros_mask_dir, kevs_2_pred_dir)
     x_range = np.linspace(lower_bound,
                           upper_bound, 1000)
     
-    """ kde_original = gaussian_kde(original_sat_intensities)
+    kde_original = gaussian_kde(original_sat_intensities)
     kde_original_values = kde_original(x_range)
-    kde_original_mean, kde_original_std,  _,_,_, _ = kde_stats(kde_original, x_range) """
+    kde_original_mean, kde_original_std,  _,_,_, _ = kde_stats(kde_original, x_range)
     
-    """ kde_eroded = gaussian_kde(eroded_sat_intensities)
+    kde_eroded = gaussian_kde(eroded_sat_intensities)
     kde_eroded_values = kde_eroded(x_range)
-    kde_eroded_mean, kde_eroded_std, skewness, kurtosis, lower_percentile, upper_percentile = kde_stats(kde_eroded, x_range) """
+    kde_eroded_mean, kde_eroded_std, skewness, kurtosis, lower_percentile, upper_percentile = kde_stats(kde_eroded, x_range)
     
-    
-    
-    """ abd_cav_intensities = image_nii_data[abd_cav_mask]
+    abd_cav_intensities = image_nii_data[abd_cav_mask]
     kde_abd_values = kde_eroded(abd_cav_intensities)
     lower_threshold = np.percentile(kde_abd_values, 10) 
     
-    #print(f"abd cav intensities: {len(abd_cav_intensities)}")
-    
-    abd_kevs2_cav_intensities = image_nii_data[kevs_2_abd_cav_pred]
-    
-    #print(f"abd_kevs2_cav_intensities: {len(abd_kevs2_cav_intensities)}")
-    kde_abd_kevs2_values = kde_eroded(abd_kevs2_cav_intensities)
-    lower_kevs2_threshold = np.percentile(kde_abd_kevs2_values, 10) 
-    
     abd_cav_filtered_mask = np.zeros_like(abd_cav_mask)
-    abd_cav_kevs_2_filtered_mask = np.zeros_like(kevs_2_abd_cav_pred)
     
     
     abd_cav_filtered_all_range = np.zeros_like(abd_cav_mask)
     abd_cav_filtered_all_range[abd_cav_mask] = kde_abd_values 
     
-    #abd_cav_filtered_mask[abd_cav_mask] = kde_abd_values < upper_threshold
     abd_cav_filtered_mask[abd_cav_mask] =  kde_abd_values > lower_threshold
-    abd_cav_kevs_2_filtered_mask[kevs_2_abd_cav_pred] =  kde_abd_kevs2_values > lower_kevs2_threshold
-    time_after = time.time()
-    KEVS_pred_time = time_after - time_before """
-    
-    #print(np.sum(abd_cav_kevs_2_filtered_mask))
-    
     
     
     # Apply the intensity thresholding directly on the 3D mask
@@ -367,48 +339,3 @@ if __name__ == "__main__":
         
         # Call the erode_sat function to get results including VAT KDE data
         results = erode_sat(image, mask, image_dir, mask_dir, saros_mask_dir, kevs_sep_ts_pred)
-        
-        """ kde_output_path = os.path.join(kde_dir, f'{patient_id}_{series_id}_kde.png')
-        
-        # Save the KDE plot for SAT and VAT masks
-        save_kde_plot(
-            results[7],          # kde_original_values for SAT
-            results[8],          # kde_eroded_values for SAT
-            results[14],        # vat_kde_data for VAT masks (comes from erode_sat)
-            results[13],         # x_range
-            kde_output_path,     # Output path for saving the plot
-            results[3],          # original_avg
-            results[4],          # original_std
-            results[5],          # eroded_avg
-            results[6],          # eroded_std
-            results[9],          # kde_original_mean
-            results[10],         # kde_original_std
-            results[11],         # kde_eroded_mean
-            results[12]          # kde_eroded_std
-        )
-
-        skews.append(results[16])
-        kurtoses.append(results[15])
-        print(f"Skewness: {results[16]}")
-        print(f"kurtosis: {results[15]}")
-        print(f"Running skewness average : {np.mean(skews)} +/- {np.std(skews)}")
-        print(f"Running excess kurtosis average : {np.mean(kurtoses)} +/- {np.std(kurtoses)}")
-        
-        kevs_pred_times.append(results[-1])
-        
-        print(f"kevs pred time for image: {pred} is {results[-1]:.4f}")
-        
-        print(f"KEVS pred time running average: {np.mean(kevs_pred_times)}")
-
-        # Prepare data for CSV
-        row = {
-            'patient_id': patient_id,
-            'series_id': series_id,
-            'SAT pred kurtosis': results[15],
-            'SAT pred skewness': results[16]
-        }
-        
-        data.append(row)
-        
-    df = pd.DataFrame(data)
-    #df.to_csv('sat_skew_kurtosis.csv', index=False) """
