@@ -2,26 +2,26 @@ import nibabel as nib
 import os
 import numpy as np
 
-def thresholding_predictions(scan_dir, saros_mask_dir):
+def thresholding_predictions(scan_dir, abdominal_mask_dir):
     """
     Function to make thresholding VAT predictions on CT scans
 
     Args:
-        scan_dir: The directory containing the scans.
-        saros_mask_dir: The directory containing the SAROS masks.
+        scan_dir: The directory containing the CT scans.
+        abdominal_mask_dir: The directory containing the abdominal cavity masks.
 
     Returns:
-        None. Saves processed images and KDE plots.
+        None. Saves processed images.
     """
     scan_list = os.listdir(scan_dir)
     for scan in sorted(scan_list):
         scan_nii = nib.load(os.path.join(scan_dir, scan))
         scan_nii_data = scan_nii.get_fdata()
 
-        saros_mask_nii = nib.load(os.path.join(saros_mask_dir, scan.replace('_0000.nii.gz', '.nii.gz')))
-        saros_mask_nii_data = saros_mask_nii.get_fdata()
+        abd_mask_nii = nib.load(os.path.join(abdominal_mask_dir, scan.replace('_0000.nii.gz', '.nii.gz')))
+        abd_mask_nii_data = abd_mask_nii.get_fdata()
 
-        saros_abd_cav_mask = (saros_mask_nii_data == 3)
+        abd_cav_mask = (abd_mask_nii_data == 3)
 
         # Define threshold ranges and corresponding output directory names
         threshold_ranges = {
@@ -36,7 +36,7 @@ def thresholding_predictions(scan_dir, saros_mask_dir):
 
         for pred_name, (lower_thresh, upper_thresh) in threshold_ranges.items():
             # Create VAT mask based on threshold range
-            vat_mask = (scan_nii_data >= lower_thresh) & (scan_nii_data <= upper_thresh) & saros_abd_cav_mask
+            vat_mask = (scan_nii_data >= lower_thresh) & (scan_nii_data <= upper_thresh) & abd_cav_mask
 
             # Create NIfTI image from the mask
             pred_nii = nib.Nifti1Image(vat_mask.astype(np.int16), scan_nii.affine)

@@ -130,10 +130,13 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list):
 
     return results
 
-# Example usage (replace with your actual paths):
-ground_truth_dir = "/media/HDD1/tom/KEVS/data/vat/ground_truth"
-full_pred_dir = "/media/HDD1/tom/SSM/IPCAI_2025_images/IPCAI_resampled_refined_preds_new"  # Path to the full predictions
-base_dirs = ["/media/HDD1/tom/SSM/IPCAI_2025_images/ALL_VAT_PREDS/predictions/KEVS", "/media/HDD1/tom/SSM/IPCAI_2025_images/ALL_VAT_PREDS/predictions/thresholding", "./media/HDD1/tom/SSM/IPCAI_2025_images/ALL_VAT_PREDS/predictions/totalsegmentator"]
+#Get path to current script and dir
+script_path = os.path.abspath(__file__)
+script_dir = os.path.dirname(script_path)
+
+ground_truth_dir = os.path.join(script_dir, "..", "data", "vat", "ground_truth")
+full_pred_dir = os.path.join(script_dir, "..", "data", "umamba_predictions")
+base_dirs = [os.path.join(script_dir, "..", "data", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "data", "vat", "predictions", "TotalSegmentator")]
 pred_dirs_list = get_pred_dirs(base_dirs)
 
 metrics_results = calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list)

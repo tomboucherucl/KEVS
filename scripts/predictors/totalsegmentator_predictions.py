@@ -2,7 +2,8 @@ import os
 import subprocess
 import shutil
 
-def totalsegmentator_inference(scan_dir, output_dir):
+def totalsegmentator_inference(scan_dir):
+    output_dir = '/media/HDD1/tom/KEVS/data/vat/predictions/TotalSegmentator'
     os.makedirs(output_dir, exist_ok=True)
     scans = sorted([f for f in os.listdir(scan_dir) if f.endswith('.nii.gz')])
     for scan in scans:
