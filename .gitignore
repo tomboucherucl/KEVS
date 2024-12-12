@@ -2,4 +2,4 @@
 *.nii.gz
 
 /scripts/misc/
-/scripts/util_original/
+/scripts/util_original
