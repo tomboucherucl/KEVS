@@ -88,21 +88,32 @@ def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs
                         mask_slice = mask_numpy[:, :, slice_idx]
                         pred_slice = pred_numpy[:, :, slice_idx]
 
-                        #if np.sum(mask_slice) > 0:
-                        metrics[f'{technique}_dice'].append(dice_score(pred_slice.astype(int), mask_slice.astype(int)))
-                        metrics[f'{technique}_nsd'].append(nsd_score_2d(mask_slice, pred_slice, tolerance=2))
-                        metrics[f'{technique}_precision'].append(precision_score(mask_slice, pred_slice))
-                        metrics[f'{technique}_recall'].append(sensitivity_score(mask_slice, pred_slice))
+                        if np.sum(mask_slice) + np.sum(pred_slice) > 0:
+                            metrics[f'{technique}_dice'].append(dice_score(pred_slice.astype(int), mask_slice.astype(int)))
+                            metrics[f'{technique}_nsd'].append(nsd_score_2d(mask_slice, pred_slice, tolerance=2))
+                            metrics[f'{technique}_precision'].append(precision_score(mask_slice, pred_slice))
+                            metrics[f'{technique}_recall'].append(sensitivity_score(mask_slice, pred_slice))
 
         # Perform Wilcoxon test and store results
         wilcoxon_results = {}
         for metric_name in ['dice', 'nsd', 'precision', 'recall']:
+            wilcoxon_results[metric_name] = {} # Initialise nested dictionary here
+
             try:
-                statistic, p_value = wilcoxon(metrics[f'{technique1}_{metric_name}'], metrics[f'{technique2}_{metric_name}'], alternative='greater')
-                wilcoxon_results[metric_name] = {'statistic': statistic, 'p_value': p_value}
+                _, two_sided_p_value = wilcoxon(metrics[f'{technique1}_{metric_name}'], metrics[f'{technique2}_{metric_name}'], alternative='two-sided')
+                wilcoxon_results[metric_name]['two_sided_p_value'] = two_sided_p_value
+
             except ValueError as e:
-                print(f"    Warning: Could not perform Wilcoxon test for {metric_name} ({technique1} vs {technique2}): {e}")
-                wilcoxon_results[metric_name] = {'statistic': np.nan, 'p_value': np.nan}
+                print(f"    Warning: Could not perform two-sided Wilcoxon test for {metric_name} ({technique1} vs {technique2}): {e}")
+                wilcoxon_results[metric_name]['two_sided_p_value'] = np.nan
+
+            try:
+                _, greater_p_value = wilcoxon(metrics[f'{technique1}_{metric_name}'], metrics[f'{technique2}_{metric_name}'], alternative='greater')
+                wilcoxon_results[metric_name]['greater_p_value'] = greater_p_value
+
+            except ValueError as e:
+                print(f"    Warning: Could not perform one-sided (greater) Wilcoxon test for {metric_name} ({technique1} vs {technique2}): {e}")
+                wilcoxon_results[metric_name]['greater_p_value'] = np.nan
 
         # Create DataFrame for CSV output
         df = pd.DataFrame(index=['dice', 'nsd', 'precision', 'recall'])
@@ -115,8 +126,8 @@ def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs
 
             df.loc[metric_name, f'{technique1}'] = f"{mean_t1:.4f} +/- {std_t1:.4f}"
             df.loc[metric_name, f'{technique2}'] = f"{mean_t2:.4f} +/- {std_t2:.4f}"
-            df.loc[metric_name, 'Wilcoxon_stat'] = wilcoxon_results[metric_name]['statistic']
-            df.loc[metric_name, 'Wilcoxon_p_value'] = wilcoxon_results[metric_name]['p_value']
+            df.loc[metric_name, 'Wilcoxon_two_sided_p_value'] = wilcoxon_results[metric_name]['two_sided_p_value']
+            df.loc[metric_name, 'Wilcoxon_greater_p_value'] = wilcoxon_results[metric_name]['greater_p_value']
 
         # Write DataFrame to CSV file
         df.to_csv(f"{output_prefix}_{technique1}_vs_{technique2}.csv")

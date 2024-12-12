@@ -118,5 +118,10 @@ def precision_score(truth, prediction):
     return tp / (tp + fp)
 
 def dice_score(pred_matrix, mask_matrix):
-    numerator = np.sum(pred_matrix*mask_matrix)
-    return (2*numerator)/(np.sum(pred_matrix) + np.sum(mask_matrix))
+    if np.sum(pred_matrix)*np.sum(mask_matrix) == 0:
+        return 0
+    if np.sum(pred_matrix)+np.sum(mask_matrix) == 0:
+        return 1
+    else:
+        numerator = np.sum(pred_matrix*mask_matrix)
+        return (2*numerator)/(np.sum(pred_matrix) + np.sum(mask_matrix))
