@@ -37,12 +37,14 @@ def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs
             if technique != technique1 and technique != technique2:
                 comparison_mrns.extend(pred_dirs[technique]["mrns"])
         comparison_mrns = list(set(comparison_mrns))  # Remove duplicates
-
         if not comparison_mrns:
             print(f"    Warning: No comparison MRNs found for {technique1} vs {technique2}. Skipping this pair.")
             continue
+        
+        print(sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz')]))
+        print(comparison_mrns)
 
-        for ground_truth_filename in tqdm(sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz') and f[:8] in comparison_mrns]), desc=f"  Processing ground truth files ({technique1} vs {technique2})", leave=False):
+        for ground_truth_filename in tqdm(sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz') and f.replace('.nii.gz', '') in comparison_mrns]), desc=f"  Processing ground truth files ({technique1} vs {technique2})", leave=False):
             mask_path = os.path.join(ground_truth_dir, ground_truth_filename)
             full_pred_path = os.path.join(full_pred_dir, ground_truth_filename)
 

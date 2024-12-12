@@ -9,7 +9,7 @@ combined_file_names = thresholding_mrns + kevs_mrns + totalsegmentator_mrns
 
 file_key = {filename: f"UCLH-Cyst_{i+1:04}" for i, filename in enumerate(combined_file_names)}
     
-for root, dir, files in os.walk('/media/HDD1/tom/KEVS/data', topdown=True):
+""" for root, dir, files in os.walk('/media/HDD1/tom/KEVS/data', topdown=True):
     for file in files:
         if file.endswith(".nii.gz"):
             key_name = file_key[file[:8]]
@@ -25,5 +25,5 @@ for root, dir, files in os.walk('/media/HDD1/tom/KEVS/data', topdown=True):
                 print(new_path)
                 print(new_path[:-22])
                 os.makedirs(new_path[:-22], exist_ok=True)
-                shutil.copy2(original_path, new_path)
+                shutil.copy2(original_path, new_path) """
     
