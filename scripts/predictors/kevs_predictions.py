@@ -2,7 +2,7 @@ import os
 import nibabel as nib
 import numpy as np
 from scipy.stats import gaussian_kde
-from util_new.erode_sat import binary_erode_from_exterior_2d
+from util.erode_sat import binary_erode_from_exterior_2d
 
 def kevs_predictions(scan_dir, umamba_prediction_dir):
     scan_list = os.listdir(scan_dir)
