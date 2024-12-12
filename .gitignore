@@ -1,5 +1,5 @@
 *.pth
 *.nii.gz
 
-/scripts/misc
-/scripts/util_original
+/scripts/misc/
+/scripts/util_original/
