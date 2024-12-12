@@ -10,8 +10,11 @@ def get_pred_dirs(base_dirs):
     """Gets a list of prediction directories."""
     pred_dirs = []
     for base_dir in base_dirs:
+        print(f"Processing base directory: {base_dir}")  # Debug print
         for root, _, files in os.walk(base_dir):
+            print(f"  Checking directory: {root}")  # Debug print
             if any(f.endswith('.nii.gz') for f in files):
+                print(f"    Found .nii.gz files in: {root}")  # Debug print
                 pred_dirs.append(root)
     return pred_dirs
 
@@ -22,9 +25,7 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list):
         metrics = {'dice': [], 'nsd': [], 'precision': [], 'recall': [],
                    'dice_bounded': [], 'nsd_bounded': [], 'precision_bounded': [], 'recall_bounded': []}
         
-        print(pred_dir)
-        
-        for ground_truth_filename in tqdm(sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz')])):
+        for ground_truth_filename in sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz')]):
             mask_path = os.path.join(ground_truth_dir, ground_truth_filename)
             pred_path = os.path.join(pred_dir, ground_truth_filename)
             full_pred_path = os.path.join(full_pred_dir, ground_truth_filename)
@@ -64,15 +65,14 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list):
 script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path)
 
-ground_truth_dir = os.path.join(script_dir, "..", "data", "vat", "ground_truth")
-full_pred_dir = os.path.join(script_dir, "..", "data", "umamba_predictions")
-base_dirs = [os.path.join(script_dir, "..", "data", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "data", "vat", "predictions", "TotalSegmentator")]
+ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "vat", "ground_truth")
+full_pred_dir = os.path.join(script_dir, "..", "..", "data", "umamba_predictions")
+base_dirs = [os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..","..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "TotalSegmentator")]
+
 pred_dirs_list = get_pred_dirs(base_dirs)
 
 metrics_results = calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list)
 
-print(metrics_results)
 
-            
     
 
