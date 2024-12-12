@@ -140,7 +140,7 @@ def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs
 script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path)
 
-ground_truth_dir = os.path.join(script_dir, "..","..", "data", "vat", "ground_truth")
+ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "vat", "ground_truth")
 full_pred_dir = os.path.join(script_dir, "..", "..", "data", "umamba_predictions")  # Assuming you have this
 pred_dirs_file = os.path.join(script_dir, "mrn_associations.json")  # Path to your JSON file
 
