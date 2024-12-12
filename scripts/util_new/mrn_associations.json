@@ -1,0 +1,14 @@
+{
+    "TotalSegmentator": {
+      "mrns": ["21272522", "21310908", "21343104", "41644655", "41688648"],
+      "pred_dir_paths": ["../../data/vat/predictions/TotalSegmentator"]
+    },
+    "KEVS": {
+      "mrns": ["21221312", "21238848", "21282741", "21419169", "40690080"],
+      "pred_dir_paths": ["../../data/vat/predictions/KEVS/pd_15"]
+    },
+    "Thresholding": {
+      "mrns": ["21207670", "21260966", "21270369", "21275957", "21276499", "21316038", "21353148", "21354530", "21375845", "40265487"],
+      "pred_dir_paths": ["../../data/vat/predictions/thresholding/range_minus190_minus30"]
+    }
+  }

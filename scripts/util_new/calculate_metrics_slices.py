@@ -2,152 +2,136 @@ import os
 import numpy as np
 import nibabel as nib
 from scipy.ndimage import binary_erosion, distance_transform_edt
+from scipy.stats import wilcoxon
 from tqdm import tqdm
+import pandas as pd
+import json
+import itertools
 
-def extract_boundaries(mask):
-    """Extract the boundaries of a binary mask."""
-    # Structuring element for erosion
-    struct = np.ones((3, 3), dtype=bool)
-    
-    # Erode the mask to find the boundaries
-    eroded_mask = binary_erosion(mask, structure=struct)
-    
-    # The boundary is the original mask minus the eroded mask
-    boundary = mask & ~eroded_mask
-    
-    return boundary
-    
-def nsd_score(mask_gt, mask_pred, tolerance, voxel_spacing=(1.5, 1.5)):
-    mask_gt = mask_gt.astype(bool)
-    mask_pred = mask_pred.astype(bool)
+from metrics import nsd_score_2d, dice_score, sensitivity_score, precision_score
 
-    # Extract boundaries
-    boundary_gt = extract_boundaries(mask_gt)
-    boundary_pred = extract_boundaries(mask_pred)
 
-    # Compute distance transforms
-    distmap_gt = distance_transform_edt(~boundary_gt, sampling=voxel_spacing)
-    distmap_pred = distance_transform_edt(~boundary_pred, sampling=voxel_spacing)
+def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs_file, output_prefix="metrics_results"):
+    # Load MRN associations from JSON file
+    with open(pred_dirs_file, 'r') as f:
+        pred_dirs = json.load(f)
 
-    # Determine border regions within the specified tolerance
-    border_region_gt = distmap_gt <= tolerance
-    border_region_pred = distmap_pred <= tolerance
+    # Get all technique combinations
+    techniques = sorted(list(pred_dirs.keys()))
+    print(techniques)
+    technique_combinations = list(itertools.combinations(techniques, 2))
 
-    # Compute intersection areas
-    intersection_gt = np.logical_and(boundary_gt, border_region_pred)
-    intersection_pred = np.logical_and(boundary_pred, border_region_gt)
+    results = {}  # Initialize the results dictionary
 
-    # Calculate the lengths of the boundaries
-    boundary_length_gt = np.sum(boundary_gt)
-    boundary_length_pred = np.sum(boundary_pred)
-    
-    if boundary_length_gt + boundary_length_pred == 0:
-        return 1
-    
-    if boundary_length_gt*boundary_length_pred == 0:
-        return 0
+    for technique1, technique2 in tqdm(technique_combinations, desc="Processing technique pairs"):
+        print(f"Comparing techniques: {technique1} vs {technique2}")
 
-    # Calculate NSD
-    nsd = (np.sum(intersection_gt) + np.sum(intersection_pred)) / (boundary_length_gt + boundary_length_pred)
-    
-    return nsd
+        metrics = {
+            f'{technique1}_dice': [], f'{technique1}_nsd': [], f'{technique1}_precision': [], f'{technique1}_recall': [],
+            f'{technique2}_dice': [], f'{technique2}_nsd': [], f'{technique2}_precision': [], f'{technique2}_recall': []
+        }
 
-def sensitivity_score(truth, prediction):
-    tp = np.sum((truth == 1) & (prediction == 1))
-    fn = np.sum((truth == 1) & (prediction == 0))
-    if tp + fn == 0:
-        return 1  # Indeterminate sensitivity
-    return tp / (tp + fn)
+        # Determine the MRNs to use for comparison (MRNs of the technique NOT in the current pair)
+        comparison_mrns = []
+        for technique in techniques:
+            if technique != technique1 and technique != technique2:
+                comparison_mrns.extend(pred_dirs[technique]["mrns"])
+        comparison_mrns = list(set(comparison_mrns))  # Remove duplicates
 
-def precision_score(truth, prediction):
-    tp = np.sum((truth == 1) & (prediction == 1))
-    fp = np.sum((truth == 0) & (prediction == 1))
-    if tp + fp == 0:
-        return 1  # Indeterminate specificity
-    return tp / (tp + fp)
+        if not comparison_mrns:
+            print(f"    Warning: No comparison MRNs found for {technique1} vs {technique2}. Skipping this pair.")
+            continue
 
-def dice_score(pred_matrix, mask_matrix):
-    if np.sum(pred_matrix)*np.sum(mask_matrix) == 0:
-        return 0
-    if np.sum(pred_matrix)+np.sum(mask_matrix) == 0:
-        return 1
-    else:
-        numerator = np.sum(pred_matrix*mask_matrix)
-        return (2*numerator)/(np.sum(pred_matrix) + np.sum(mask_matrix))
+        for ground_truth_filename in tqdm(sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz') and f[:8] in comparison_mrns]), desc=f"  Processing ground truth files ({technique1} vs {technique2})", leave=False):
+            mask_path = os.path.join(ground_truth_dir, ground_truth_filename)
+            full_pred_path = os.path.join(full_pred_dir, ground_truth_filename)
 
-thresholding_mrns = ['21207670', '21260966', '21270369', '21275957', '21276499', '21316038', '21353148','21354530','21375845','40265487']
-kevs_mrns = ['21221312', '21238848', '21282741', '21419169', '40690080']
-totalsegmentator_mrns = ['21272522', '21310908', '21343104', '41644655', '41688648']
+            try:
+                mask_numpy = nib.load(mask_path).get_fdata()
+                full_pred_numpy = nib.load(full_pred_path).get_fdata()
+            except Exception as e:
+                print(f"    Error loading file: {e}")
+                continue
 
-def predict_metrics_slices(full_pred_dir, ground_truth_dir, kevs_pred_dir, ts_pred_dir, thresholding_pred_dir):
-    dc_list_kevs = []
-    dc_list_ts = []
+            num_axial_slices = mask_numpy.shape[-1]
 
-    dice_full_list_kevs = []
-    dice_full_list_ts = []
-
-    nsd_list_kevs = []
-    nsd_list_ts = []
-
-    prec_list_kevs = []
-    prec_list_ts = []
-
-    recall_list_kevs = []
-    recall_list_ts = []
-
-    num_slice_list = []
-    
-    for ground_truth in tqdm(sorted([f for f in os.listdir(ground_truth_dir) if f.endswith('.nii.gz')])):  
-        print(ground_truth[:8])
-        num_annotated_slices = 0
-        if ground_truth[:8] in totalsegmentator_mrns:
-            mask_nii = nib.load(os.path.join(ground_truth_dir, ground_truth))
-            mask_numpy = mask_nii.get_fdata()
-            
-            num_axial_slices = np.array(mask_numpy.shape)[-1] 
-            
-            kevs_pred_nii = nib.load(os.path.join(kevs_pred_dir, ground_truth))
-            kevs_pred_numpy = kevs_pred_nii.get_fdata()
-            
-            ts_pred_nii = nib.load(os.path.join(ts_pred_dir, ground_truth))
-            ts_pred_numpy = ts_pred_nii.get_fdata()
-            
-            full_pred_nii = nib.load(os.path.join(full_pred_dir, ground_truth))
-            full_pred_numpy = full_pred_nii.get_fdata()
-
+            # --- Bounded Region ---
             lower_z_bound = np.max(np.where(full_pred_numpy == 26)[2])
             upper_z_bound = np.min(np.where(full_pred_numpy == 32)[2])
-            
-            """ mask_numpy[:, :, :lower_z_bound] = False
+
+            mask_numpy[:, :, :lower_z_bound] = False
             mask_numpy[:, :, upper_z_bound + 1:] = False
-            full_pred_numpy[:, :, :lower_z_bound] = False
-            full_pred_numpy[:, :, upper_z_bound + 1:] = False
-            kevs_pred_numpy[:, :, :lower_z_bound] = False
-            kevs_pred_numpy[:, :, upper_z_bound + 1:] = False
-            ts_pred_numpy[:, :, :lower_z_bound] = False
-            ts_pred_numpy[:, :, upper_z_bound + 1:] = False """
-            
-            
-            kevs_full_dice = dice_score(kevs_pred_numpy.astype(int), mask_numpy.astype(int))
-            ts_full_dice = dice_score(ts_pred_numpy.astype(int), mask_numpy.astype(int))
-            
-            dice_full_list_kevs.append(kevs_full_dice)
-            dice_full_list_ts.append(ts_full_dice)
-            
-            for slice in range(num_axial_slices):
-                if np.sum(mask_numpy[:,:,slice]) > 0:
-                    num_annotated_slices += 1
-                
-                dc_list_kevs.append(dice_score(kevs_pred_numpy[:,:,slice].astype(int), mask_numpy[:,:,slice].astype(int)))
-                nsd_list_kevs.append(nsd_score(mask_numpy[:,:,slice], kevs_pred_numpy[:,:,slice], tolerance=2))
-                prec_list_kevs.append(precision_score(mask_numpy[:,:,slice], kevs_pred_numpy[:,:,slice]))
-                recall_list_kevs.append(sensitivity_score(mask_numpy[:,:,slice], kevs_pred_numpy[:,:,slice]))
-                
-                dc_list_ts.append(dice_score(ts_pred_numpy[:,:,slice].astype(int), mask_numpy[:,:,slice].astype(int)))            
-                nsd_list_ts.append(nsd_score(mask_numpy[:,:,slice], ts_pred_numpy[:,:,slice], tolerance=2))
-                prec_list_ts.append(precision_score(mask_numpy[:,:,slice], ts_pred_numpy[:,:,slice]))
-                recall_list_ts.append(sensitivity_score(mask_numpy[:,:,slice], ts_pred_numpy[:,:,slice]))
-                
-            num_slice_list.append(num_annotated_slices)
+
+            # Get paths for both techniques
+            pred_paths = {
+                technique1: [os.path.join(pred_dir_path, ground_truth_filename) for pred_dir_path in pred_dirs[technique1]["pred_dir_paths"]],
+                technique2: [os.path.join(pred_dir_path, ground_truth_filename) for pred_dir_path in pred_dirs[technique2]["pred_dir_paths"]]
+            }
+
+            for technique, paths in pred_paths.items():
+                for pred_path in paths:
+                    if not os.path.exists(pred_path):
+                        print(f"    Warning: Prediction file not found for technique {technique}: {pred_path}")
+                        continue
+
+                    try:
+                        pred_numpy = nib.load(pred_path).get_fdata()
+                    except Exception as e:
+                        print(f"    Error loading prediction file for technique {technique}: {e}")
+                        continue
+
+                    # Apply bounding
+                    pred_numpy[:, :, :lower_z_bound] = False
+                    pred_numpy[:, :, upper_z_bound + 1:] = False
+
+                    for slice_idx in range(num_axial_slices):
+                        mask_slice = mask_numpy[:, :, slice_idx]
+                        pred_slice = pred_numpy[:, :, slice_idx]
+
+                        #if np.sum(mask_slice) > 0:
+                        metrics[f'{technique}_dice'].append(dice_score(pred_slice.astype(int), mask_slice.astype(int)))
+                        metrics[f'{technique}_nsd'].append(nsd_score_2d(mask_slice, pred_slice, tolerance=2))
+                        metrics[f'{technique}_precision'].append(precision_score(mask_slice, pred_slice))
+                        metrics[f'{technique}_recall'].append(sensitivity_score(mask_slice, pred_slice))
+
+        # Perform Wilcoxon test and store results
+        wilcoxon_results = {}
+        for metric_name in ['dice', 'nsd', 'precision', 'recall']:
+            try:
+                statistic, p_value = wilcoxon(metrics[f'{technique1}_{metric_name}'], metrics[f'{technique2}_{metric_name}'], alternative='greater')
+                wilcoxon_results[metric_name] = {'statistic': statistic, 'p_value': p_value}
+            except ValueError as e:
+                print(f"    Warning: Could not perform Wilcoxon test for {metric_name} ({technique1} vs {technique2}): {e}")
+                wilcoxon_results[metric_name] = {'statistic': np.nan, 'p_value': np.nan}
+
+        # Create DataFrame for CSV output
+        df = pd.DataFrame(index=['dice', 'nsd', 'precision', 'recall'])
+
+        for metric_name in ['dice', 'nsd', 'precision', 'recall']:
+            mean_t1 = np.mean(metrics[f'{technique1}_{metric_name}'])
+            std_t1 = np.std(metrics[f'{technique1}_{metric_name}'])
+            mean_t2 = np.mean(metrics[f'{technique2}_{metric_name}'])
+            std_t2 = np.std(metrics[f'{technique2}_{metric_name}'])
+
+            df.loc[metric_name, f'{technique1}'] = f"{mean_t1:.4f} +/- {std_t1:.4f}"
+            df.loc[metric_name, f'{technique2}'] = f"{mean_t2:.4f} +/- {std_t2:.4f}"
+            df.loc[metric_name, 'Wilcoxon_stat'] = wilcoxon_results[metric_name]['statistic']
+            df.loc[metric_name, 'Wilcoxon_p_value'] = wilcoxon_results[metric_name]['p_value']
+
+        # Write DataFrame to CSV file
+        df.to_csv(f"{output_prefix}_{technique1}_vs_{technique2}.csv")
+
+    return results
+
+# --- Example usage ---
+script_path = os.path.abspath(__file__)
+script_dir = os.path.dirname(script_path)
+
+ground_truth_dir = os.path.join(script_dir, "..","..", "data", "vat", "ground_truth")
+full_pred_dir = os.path.join(script_dir, "..", "..", "data", "umamba_predictions")  # Assuming you have this
+pred_dirs_file = os.path.join(script_dir, "mrn_associations.json")  # Path to your JSON file
+
+# Call the function
+results = calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs_file, output_prefix="metrics_results_axial")
 
 
