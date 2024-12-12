@@ -14,8 +14,8 @@ def predict_vat(scans_dir, abdominal_mask_dir, umamba_predictions_dir):
     totalsegmentator_inference(scans_dir)
     
 if __name__ == '__main__':
-    scans_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "scans")
-    abdominal_cavity_masks_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "abdominal_cavity_mask")
-    umamba_predictions_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "umamba_predictions")
+    scans_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "scans")
+    abdominal_cavity_masks_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "abdominal_cavity_mask")
+    umamba_predictions_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "umamba_predictions")
 
     predict_vat(scans_path, abdominal_cavity_masks_path, umamba_predictions_path)

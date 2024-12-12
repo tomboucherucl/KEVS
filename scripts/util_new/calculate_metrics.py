@@ -97,7 +97,8 @@ script_dir = os.path.dirname(script_path)
 
 ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "vat", "ground_truth")
 full_pred_dir = os.path.join(script_dir, "..", "..", "data", "umamba_predictions")
-base_dirs = [os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..","..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "TotalSegmentator")]
+base_dirs = [os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "TotalSegmentator")]
+#os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..","..", "data", "vat", "predictions", "thresholding"), 
 
 pred_dirs_list = get_pred_dirs(base_dirs)
 
