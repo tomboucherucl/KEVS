@@ -14,7 +14,7 @@ def thresholding_predictions(scan_dir, abdominal_mask_dir):
         None. Saves processed images.
     """
     scan_list = os.listdir(scan_dir)
-    for scan in sorted(scan_list):
+    for scan in sorted(f for f in scan_list if f.endswith('.nii.gz')):
         scan_nii = nib.load(os.path.join(scan_dir, scan))
         scan_nii_data = scan_nii.get_fdata()
 
@@ -32,7 +32,7 @@ def thresholding_predictions(scan_dir, abdominal_mask_dir):
             'range_minus195_minus45': (-195, -45),
         }
 
-        base_output_dir = './data/vat/predictions/thresholding'
+        base_output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "vat", "predictions", "thresholding")
 
         for pred_name, (lower_thresh, upper_thresh) in threshold_ranges.items():
             # Create VAT mask based on threshold range

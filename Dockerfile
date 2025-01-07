@@ -1,16 +1,13 @@
 # Use an official NVIDIA CUDA runtime image as a base
-FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:12.0.0-devel-ubuntu20.04
+
+# Set the working directory inside the container
+WORKDIR /app
 
 # Set non-interactive frontend for tzdata
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Define build arguments (with defaults)
-ARG USERNAME=defaultuser
-ARG UID=1000
-ARG GID=1000
-ARG BASE_PATH=/app/data  # Default path inside the container
-
-# Install Python 3.11 and other dependencies
+# Install Python 3.11 and other dependencies including tzdata and sudo
 RUN apt-get update && apt-get install -y \
     software-properties-common sudo && \
     add-apt-repository ppa:deadsnakes/ppa && \
@@ -20,38 +17,52 @@ RUN apt-get update && apt-get install -y \
     python3.11 get-pip.py && \
     rm get-pip.py
 
+
 # Install OpenCV dependencies
 RUN apt-get install -y libgl1-mesa-glx libglib2.0-0
 
-# Create user (for permissions on mounted volumes)
+# Set the timezone environment variable (replace 'America/New_York' with your timezone)
+#ENV TZ=Europe/London
+
+# Configure the timezone non-interactively
+#RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone && \
+#    dpkg-reconfigure --frontend noninteractive tzdata
+
+# Get the host user UID and GID from build arguments
+ARG USERNAME
+ARG UID
+ARG GID
+
+# Create the user inside the container with the same UID and GID
 RUN groupadd -g $GID $USERNAME && \
     useradd -m -u $UID -g $GID -s /bin/bash $USERNAME
 
-# Grant sudo (if absolutely necessary)
+# Grant sudo privileges to the user without requiring a password
 RUN echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
-# Set working directory
-WORKDIR /app
+# Set the permissions for the working directory
+RUN chown -R $USERNAME:$USERNAME /app
 
-# Set environment variables for paths (using ARG)
-ENV BASE="${BASE_PATH}" \
-    nnUNet_raw="${BASE_PATH}/nnUNet_raw" \
-    nnUNet_preprocessed="${BASE_PATH}/nnUNet_preprocessed" \
-    nnUNet_results="${BASE_PATH}/nnUNet_results"
+# Switch to the non-root user
+USER $USERNAME
 
-# Copy the application code (make sure user owns files)
-COPY --chown=$USERNAME:$USERNAME . /app
+# Copy the requirements.txt file into the working directory
+COPY --chown=$USERNAME:$USERNAME requirements.txt .
+
+# Set environment variables for paths
+ENV BASE="/app/U-Mamba/data" \
+    nnUNet_raw="/app/U-Mamba/data/nnUNet_raw" \
+    nnUNet_preprocessed="/app/U-Mamba/data/nnUNet_preprocessed" \
+    nnUNet_results="/app/U-Mamba/data/nnUNet_results" \
+    PATH="/home/$USERNAME/.local/bin:$PATH"
 
 # Install PyTorch
-RUN python3.11 -m pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118
+RUN python3.11 -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 RUN python3.11 -m pip install packaging
 
-# Install Python dependencies
+# Install the Python dependencies from requirements.txt
 RUN python3.11 -m pip install -r requirements.txt
 
-# Switch to non-root user
-USER $USERNAME
-
-# Command to run (default: bash for interactive use)
+# Command to run the application
 CMD ["bash"]
