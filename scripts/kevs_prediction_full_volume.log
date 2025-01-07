@@ -369,3 +369,1134 @@
 2025-01-07 17:45:14,892 - INFO - processing for percentile 25
 2025-01-07 17:45:15,480 - INFO - Beginning analysis of UCLH-Cyst_0042
 2025-01-07 17:45:16,755 - INFO - There are 2767 intensity values
+2025-01-07 17:46:01,283 - INFO - 44.52885293960571
+2025-01-07 17:46:01,284 - INFO - processing for percentile 0
+2025-01-07 17:46:01,759 - INFO - processing for percentile 5
+2025-01-07 17:46:02,221 - INFO - processing for percentile 10
+2025-01-07 17:46:02,688 - INFO - processing for percentile 15
+2025-01-07 17:46:03,152 - INFO - processing for percentile 20
+2025-01-07 17:46:03,614 - INFO - processing for percentile 25
+2025-01-07 17:46:04,074 - INFO - Beginning analysis of UCLH-Cyst_0043
+2025-01-07 17:46:05,531 - INFO - There are 1837 intensity values
+2025-01-07 17:46:48,500 - INFO - 42.96957302093506
+2025-01-07 17:46:48,501 - INFO - processing for percentile 0
+2025-01-07 17:46:48,959 - INFO - processing for percentile 5
+2025-01-07 17:46:49,427 - INFO - processing for percentile 10
+2025-01-07 17:46:49,890 - INFO - processing for percentile 15
+2025-01-07 17:46:50,359 - INFO - processing for percentile 20
+2025-01-07 17:46:50,828 - INFO - processing for percentile 25
+2025-01-07 17:46:51,291 - INFO - Beginning analysis of UCLH-Cyst_0044
+2025-01-07 17:46:52,379 - INFO - There are 1998 intensity values
+2025-01-07 17:47:35,899 - INFO - 43.51927924156189
+2025-01-07 17:47:35,899 - INFO - processing for percentile 0
+2025-01-07 17:47:36,284 - INFO - processing for percentile 5
+2025-01-07 17:47:36,673 - INFO - processing for percentile 10
+2025-01-07 17:47:37,056 - INFO - processing for percentile 15
+2025-01-07 17:47:37,447 - INFO - processing for percentile 20
+2025-01-07 17:47:37,841 - INFO - processing for percentile 25
+2025-01-07 17:47:38,235 - INFO - Beginning analysis of UCLH-Cyst_0045
+2025-01-07 17:47:38,984 - INFO - There are 1246 intensity values
+2025-01-07 17:48:00,718 - INFO - 21.733514547348022
+2025-01-07 17:48:00,718 - INFO - processing for percentile 0
+2025-01-07 17:48:01,013 - INFO - processing for percentile 5
+2025-01-07 17:48:01,290 - INFO - processing for percentile 10
+2025-01-07 17:48:01,562 - INFO - processing for percentile 15
+2025-01-07 17:48:01,834 - INFO - processing for percentile 20
+2025-01-07 17:48:02,112 - INFO - processing for percentile 25
+2025-01-07 17:48:02,385 - INFO - Beginning analysis of UCLH-Cyst_0046
+2025-01-07 17:48:03,799 - INFO - There are 2050 intensity values
+2025-01-07 17:48:49,517 - INFO - 45.71762442588806
+2025-01-07 17:48:49,517 - INFO - processing for percentile 0
+2025-01-07 17:48:49,980 - INFO - processing for percentile 5
+2025-01-07 17:48:50,437 - INFO - processing for percentile 10
+2025-01-07 17:48:50,901 - INFO - processing for percentile 15
+2025-01-07 17:48:51,360 - INFO - processing for percentile 20
+2025-01-07 17:48:51,821 - INFO - processing for percentile 25
+2025-01-07 17:48:52,279 - INFO - Beginning analysis of UCLH-Cyst_0047
+2025-01-07 17:48:54,484 - INFO - There are 2990 intensity values
+2025-01-07 17:50:22,151 - INFO - 87.66703057289124
+2025-01-07 17:50:22,151 - INFO - processing for percentile 0
+2025-01-07 17:50:22,953 - INFO - processing for percentile 5
+2025-01-07 17:50:23,746 - INFO - processing for percentile 10
+2025-01-07 17:50:24,537 - INFO - processing for percentile 15
+2025-01-07 17:50:25,339 - INFO - processing for percentile 20
+2025-01-07 17:50:26,139 - INFO - processing for percentile 25
+2025-01-07 17:50:26,937 - INFO - Beginning analysis of UCLH-Cyst_0048
+2025-01-07 17:50:28,096 - INFO - There are 3566 intensity values
+2025-01-07 17:51:14,851 - INFO - 46.75488018989563
+2025-01-07 17:51:14,851 - INFO - processing for percentile 0
+2025-01-07 17:51:15,203 - INFO - processing for percentile 5
+2025-01-07 17:51:15,561 - INFO - processing for percentile 10
+2025-01-07 17:51:15,918 - INFO - processing for percentile 15
+2025-01-07 17:51:16,269 - INFO - processing for percentile 20
+2025-01-07 17:51:16,613 - INFO - processing for percentile 25
+2025-01-07 17:51:16,962 - INFO - Beginning analysis of UCLH-Cyst_0049
+2025-01-07 17:51:17,932 - INFO - There are 1874 intensity values
+2025-01-07 17:51:44,894 - INFO - 26.961918115615845
+2025-01-07 17:51:44,894 - INFO - processing for percentile 0
+2025-01-07 17:51:45,208 - INFO - processing for percentile 5
+2025-01-07 17:51:45,519 - INFO - processing for percentile 10
+2025-01-07 17:51:45,838 - INFO - processing for percentile 15
+2025-01-07 17:51:46,158 - INFO - processing for percentile 20
+2025-01-07 17:51:46,467 - INFO - processing for percentile 25
+2025-01-07 17:51:46,787 - INFO - Beginning analysis of UCLH-Cyst_0050
+2025-01-07 17:51:47,664 - INFO - There are 1861 intensity values
+2025-01-07 17:52:30,851 - INFO - 43.186538219451904
+2025-01-07 17:52:30,851 - INFO - processing for percentile 0
+2025-01-07 17:52:31,141 - INFO - processing for percentile 5
+2025-01-07 17:52:31,438 - INFO - processing for percentile 10
+2025-01-07 17:52:31,731 - INFO - processing for percentile 15
+2025-01-07 17:52:32,025 - INFO - processing for percentile 20
+2025-01-07 17:52:32,321 - INFO - processing for percentile 25
+2025-01-07 17:52:32,625 - INFO - Beginning analysis of UCLH-Cyst_0051
+2025-01-07 17:52:33,613 - INFO - There are 2021 intensity values
+2025-01-07 17:52:54,744 - INFO - 21.130369424819946
+2025-01-07 17:52:54,744 - INFO - processing for percentile 0
+2025-01-07 17:52:55,040 - INFO - processing for percentile 5
+2025-01-07 17:52:55,362 - INFO - processing for percentile 10
+2025-01-07 17:52:55,667 - INFO - processing for percentile 15
+2025-01-07 17:52:55,971 - INFO - processing for percentile 20
+2025-01-07 17:52:56,279 - INFO - processing for percentile 25
+2025-01-07 17:52:56,590 - INFO - Beginning analysis of UCLH-Cyst_0052
+2025-01-07 17:52:57,753 - INFO - There are 3201 intensity values
+2025-01-07 17:53:43,374 - INFO - 45.6205849647522
+2025-01-07 17:53:43,374 - INFO - processing for percentile 0
+2025-01-07 17:53:43,740 - INFO - processing for percentile 5
+2025-01-07 17:53:44,098 - INFO - processing for percentile 10
+2025-01-07 17:53:44,461 - INFO - processing for percentile 15
+2025-01-07 17:53:44,823 - INFO - processing for percentile 20
+2025-01-07 17:53:45,190 - INFO - processing for percentile 25
+2025-01-07 17:53:45,563 - INFO - Beginning analysis of UCLH-Cyst_0053
+2025-01-07 17:53:46,336 - INFO - There are 977 intensity values
+2025-01-07 17:53:58,586 - INFO - 12.25044298171997
+2025-01-07 17:53:58,587 - INFO - processing for percentile 0
+2025-01-07 17:53:58,852 - INFO - processing for percentile 5
+2025-01-07 17:53:59,128 - INFO - processing for percentile 10
+2025-01-07 17:53:59,399 - INFO - processing for percentile 15
+2025-01-07 17:53:59,676 - INFO - processing for percentile 20
+2025-01-07 17:53:59,938 - INFO - processing for percentile 25
+2025-01-07 17:54:00,208 - INFO - Beginning analysis of UCLH-Cyst_0054
+2025-01-07 17:54:00,932 - INFO - There are 3717 intensity values
+2025-01-07 17:54:43,188 - INFO - 42.2549843788147
+2025-01-07 17:54:43,188 - INFO - processing for percentile 0
+2025-01-07 17:54:43,455 - INFO - processing for percentile 5
+2025-01-07 17:54:43,716 - INFO - processing for percentile 10
+2025-01-07 17:54:43,990 - INFO - processing for percentile 15
+2025-01-07 17:54:44,249 - INFO - processing for percentile 20
+2025-01-07 17:54:44,504 - INFO - processing for percentile 25
+2025-01-07 17:54:44,764 - INFO - Beginning analysis of UCLH-Cyst_0055
+2025-01-07 17:54:46,296 - INFO - There are 2335 intensity values
+2025-01-07 17:55:29,672 - INFO - 43.37598919868469
+2025-01-07 17:55:29,673 - INFO - processing for percentile 0
+2025-01-07 17:55:30,148 - INFO - processing for percentile 5
+2025-01-07 17:55:30,636 - INFO - processing for percentile 10
+2025-01-07 17:55:31,126 - INFO - processing for percentile 15
+2025-01-07 17:55:31,613 - INFO - processing for percentile 20
+2025-01-07 17:55:32,098 - INFO - processing for percentile 25
+2025-01-07 17:55:32,578 - INFO - Beginning analysis of UCLH-Cyst_0056
+2025-01-07 17:55:33,796 - INFO - There are 3087 intensity values
+2025-01-07 17:56:20,350 - INFO - 46.55362915992737
+2025-01-07 17:56:20,350 - INFO - processing for percentile 0
+2025-01-07 17:56:20,790 - INFO - processing for percentile 5
+2025-01-07 17:56:21,230 - INFO - processing for percentile 10
+2025-01-07 17:56:21,665 - INFO - processing for percentile 15
+2025-01-07 17:56:22,098 - INFO - processing for percentile 20
+2025-01-07 17:56:22,537 - INFO - processing for percentile 25
+2025-01-07 17:56:22,977 - INFO - Beginning analysis of UCLH-Cyst_0057
+2025-01-07 17:56:24,535 - INFO - There are 1945 intensity values
+2025-01-07 17:56:58,293 - INFO - 33.758416175842285
+2025-01-07 17:56:58,294 - INFO - processing for percentile 0
+2025-01-07 17:56:58,761 - INFO - processing for percentile 5
+2025-01-07 17:56:59,235 - INFO - processing for percentile 10
+2025-01-07 17:56:59,701 - INFO - processing for percentile 15
+2025-01-07 17:57:00,180 - INFO - processing for percentile 20
+2025-01-07 17:57:00,657 - INFO - processing for percentile 25
+2025-01-07 17:57:01,122 - INFO - Beginning analysis of UCLH-Cyst_0058
+2025-01-07 17:57:01,780 - INFO - There are 1224 intensity values
+2025-01-07 17:57:14,180 - INFO - 12.400711297988892
+2025-01-07 17:57:14,181 - INFO - processing for percentile 0
+2025-01-07 17:57:14,411 - INFO - processing for percentile 5
+2025-01-07 17:57:14,641 - INFO - processing for percentile 10
+2025-01-07 17:57:14,871 - INFO - processing for percentile 15
+2025-01-07 17:57:15,106 - INFO - processing for percentile 20
+2025-01-07 17:57:15,341 - INFO - processing for percentile 25
+2025-01-07 17:57:15,573 - INFO - Beginning analysis of UCLH-Cyst_0059
+2025-01-07 17:57:16,741 - INFO - There are 797 intensity values
+2025-01-07 17:57:27,252 - INFO - 10.510464668273926
+2025-01-07 17:57:27,252 - INFO - processing for percentile 0
+2025-01-07 17:57:27,664 - INFO - processing for percentile 5
+2025-01-07 17:57:28,071 - INFO - processing for percentile 10
+2025-01-07 17:57:28,492 - INFO - processing for percentile 15
+2025-01-07 17:57:28,910 - INFO - processing for percentile 20
+2025-01-07 17:57:29,327 - INFO - processing for percentile 25
+2025-01-07 17:57:29,754 - INFO - Beginning analysis of UCLH-Cyst_0060
+2025-01-07 17:57:31,481 - INFO - There are 1826 intensity values
+2025-01-07 17:58:01,764 - INFO - 30.2820565700531
+2025-01-07 17:58:01,764 - INFO - processing for percentile 0
+2025-01-07 17:58:02,305 - INFO - processing for percentile 5
+2025-01-07 17:58:02,870 - INFO - processing for percentile 10
+2025-01-07 17:58:03,425 - INFO - processing for percentile 15
+2025-01-07 17:58:04,011 - INFO - processing for percentile 20
+2025-01-07 17:58:04,557 - INFO - processing for percentile 25
+2025-01-07 17:58:05,112 - INFO - Beginning analysis of UCLH-Cyst_0061
+2025-01-07 17:58:06,352 - INFO - There are 3658 intensity values
+2025-01-07 17:59:17,234 - INFO - 70.881995677948
+2025-01-07 17:59:17,234 - INFO - processing for percentile 0
+2025-01-07 17:59:17,751 - INFO - processing for percentile 5
+2025-01-07 17:59:18,271 - INFO - processing for percentile 10
+2025-01-07 17:59:18,802 - INFO - processing for percentile 15
+2025-01-07 17:59:19,336 - INFO - processing for percentile 20
+2025-01-07 17:59:19,854 - INFO - processing for percentile 25
+2025-01-07 17:59:20,379 - INFO - Beginning analysis of UCLH-Cyst_0062
+2025-01-07 17:59:21,949 - INFO - There are 3944 intensity values
+2025-01-07 18:00:32,299 - INFO - 70.34946393966675
+2025-01-07 18:00:32,299 - INFO - processing for percentile 0
+2025-01-07 18:00:32,853 - INFO - processing for percentile 5
+2025-01-07 18:00:33,407 - INFO - processing for percentile 10
+2025-01-07 18:00:33,970 - INFO - processing for percentile 15
+2025-01-07 18:00:34,526 - INFO - processing for percentile 20
+2025-01-07 18:00:35,074 - INFO - processing for percentile 25
+2025-01-07 18:00:35,626 - INFO - Beginning analysis of UCLH-Cyst_0063
+2025-01-07 18:00:36,435 - INFO - There are 1508 intensity values
+2025-01-07 18:00:46,977 - INFO - 10.542024612426758
+2025-01-07 18:00:46,977 - INFO - processing for percentile 0
+2025-01-07 18:00:47,237 - INFO - processing for percentile 5
+2025-01-07 18:00:47,494 - INFO - processing for percentile 10
+2025-01-07 18:00:47,762 - INFO - processing for percentile 15
+2025-01-07 18:00:48,023 - INFO - processing for percentile 20
+2025-01-07 18:00:48,276 - INFO - processing for percentile 25
+2025-01-07 18:00:48,531 - INFO - Beginning analysis of UCLH-Cyst_0064
+2025-01-07 18:00:49,219 - INFO - There are 1216 intensity values
+2025-01-07 18:01:00,214 - INFO - 10.994147539138794
+2025-01-07 18:01:00,214 - INFO - processing for percentile 0
+2025-01-07 18:01:00,474 - INFO - processing for percentile 5
+2025-01-07 18:01:00,735 - INFO - processing for percentile 10
+2025-01-07 18:01:00,997 - INFO - processing for percentile 15
+2025-01-07 18:01:01,255 - INFO - processing for percentile 20
+2025-01-07 18:01:01,512 - INFO - processing for percentile 25
+2025-01-07 18:01:01,772 - INFO - Beginning analysis of UCLH-Cyst_0065
+2025-01-07 18:01:03,292 - INFO - There are 1087 intensity values
+2025-01-07 18:01:18,476 - INFO - 15.183887958526611
+2025-01-07 18:01:18,476 - INFO - processing for percentile 0
+2025-01-07 18:01:18,935 - INFO - processing for percentile 5
+2025-01-07 18:01:19,396 - INFO - processing for percentile 10
+2025-01-07 18:01:19,842 - INFO - processing for percentile 15
+2025-01-07 18:01:20,319 - INFO - processing for percentile 20
+2025-01-07 18:01:20,765 - INFO - processing for percentile 25
+2025-01-07 18:01:21,219 - INFO - Beginning analysis of UCLH-Cyst_0066
+2025-01-07 18:01:22,519 - INFO - There are 2090 intensity values
+2025-01-07 18:02:19,329 - INFO - 56.80988883972168
+2025-01-07 18:02:19,329 - INFO - processing for percentile 0
+2025-01-07 18:02:19,746 - INFO - processing for percentile 5
+2025-01-07 18:02:20,179 - INFO - processing for percentile 10
+2025-01-07 18:02:20,625 - INFO - processing for percentile 15
+2025-01-07 18:02:21,055 - INFO - processing for percentile 20
+2025-01-07 18:02:21,490 - INFO - processing for percentile 25
+2025-01-07 18:02:21,923 - INFO - Beginning analysis of UCLH-Cyst_0067
+2025-01-07 18:02:22,625 - INFO - There are 964 intensity values
+2025-01-07 18:02:33,253 - INFO - 10.627501249313354
+2025-01-07 18:02:33,253 - INFO - processing for percentile 0
+2025-01-07 18:02:33,467 - INFO - processing for percentile 5
+2025-01-07 18:02:33,688 - INFO - processing for percentile 10
+2025-01-07 18:02:33,906 - INFO - processing for percentile 15
+2025-01-07 18:02:34,134 - INFO - processing for percentile 20
+2025-01-07 18:02:34,367 - INFO - processing for percentile 25
+2025-01-07 18:02:34,598 - INFO - Beginning analysis of UCLH-Cyst_0068
+2025-01-07 18:02:36,007 - INFO - There are 2872 intensity values
+2025-01-07 18:03:19,675 - INFO - 43.66798233985901
+2025-01-07 18:03:19,675 - INFO - processing for percentile 0
+2025-01-07 18:03:20,120 - INFO - processing for percentile 5
+2025-01-07 18:03:20,578 - INFO - processing for percentile 10
+2025-01-07 18:03:21,034 - INFO - processing for percentile 15
+2025-01-07 18:03:21,484 - INFO - processing for percentile 20
+2025-01-07 18:03:21,936 - INFO - processing for percentile 25
+2025-01-07 18:03:22,400 - INFO - Beginning analysis of UCLH-Cyst_0069
+2025-01-07 18:03:23,863 - INFO - There are 610 intensity values
+2025-01-07 18:03:33,518 - INFO - 9.655577898025513
+2025-01-07 18:03:33,519 - INFO - processing for percentile 0
+2025-01-07 18:03:34,002 - INFO - processing for percentile 5
+2025-01-07 18:03:34,472 - INFO - processing for percentile 10
+2025-01-07 18:03:34,959 - INFO - processing for percentile 15
+2025-01-07 18:03:35,435 - INFO - processing for percentile 20
+2025-01-07 18:03:35,920 - INFO - processing for percentile 25
+2025-01-07 18:03:36,410 - INFO - Beginning analysis of UCLH-Cyst_0070
+2025-01-07 18:03:37,751 - INFO - There are 2299 intensity values
+2025-01-07 18:04:50,033 - INFO - 72.28111124038696
+2025-01-07 18:04:50,033 - INFO - processing for percentile 0
+2025-01-07 18:04:50,507 - INFO - processing for percentile 5
+2025-01-07 18:04:50,999 - INFO - processing for percentile 10
+2025-01-07 18:04:51,469 - INFO - processing for percentile 15
+2025-01-07 18:04:51,941 - INFO - processing for percentile 20
+2025-01-07 18:04:52,429 - INFO - processing for percentile 25
+2025-01-07 18:04:52,913 - INFO - Beginning analysis of UCLH-Cyst_0071
+2025-01-07 18:04:54,246 - INFO - There are 1792 intensity values
+2025-01-07 18:05:24,972 - INFO - 30.72601294517517
+2025-01-07 18:05:24,972 - INFO - processing for percentile 0
+2025-01-07 18:05:25,399 - INFO - processing for percentile 5
+2025-01-07 18:05:25,817 - INFO - processing for percentile 10
+2025-01-07 18:05:26,253 - INFO - processing for percentile 15
+2025-01-07 18:05:26,681 - INFO - processing for percentile 20
+2025-01-07 18:05:27,124 - INFO - processing for percentile 25
+2025-01-07 18:05:27,560 - INFO - Beginning analysis of UCLH-Cyst_0072
+2025-01-07 18:05:28,759 - INFO - There are 1095 intensity values
+2025-01-07 18:05:40,329 - INFO - 11.56994891166687
+2025-01-07 18:05:40,329 - INFO - processing for percentile 0
+2025-01-07 18:05:40,805 - INFO - processing for percentile 5
+2025-01-07 18:05:41,281 - INFO - processing for percentile 10
+2025-01-07 18:05:41,758 - INFO - processing for percentile 15
+2025-01-07 18:05:42,231 - INFO - processing for percentile 20
+2025-01-07 18:05:42,697 - INFO - processing for percentile 25
+2025-01-07 18:05:43,158 - INFO - Beginning analysis of UCLH-Cyst_0073
+2025-01-07 18:05:43,924 - INFO - There are 972 intensity values
+2025-01-07 18:05:56,409 - INFO - 12.4855318069458
+2025-01-07 18:05:56,409 - INFO - processing for percentile 0
+2025-01-07 18:05:56,667 - INFO - processing for percentile 5
+2025-01-07 18:05:56,921 - INFO - processing for percentile 10
+2025-01-07 18:05:57,189 - INFO - processing for percentile 15
+2025-01-07 18:05:57,466 - INFO - processing for percentile 20
+2025-01-07 18:05:57,742 - INFO - processing for percentile 25
+2025-01-07 18:05:57,996 - INFO - Beginning analysis of UCLH-Cyst_0074
+2025-01-07 18:05:59,331 - INFO - There are 597 intensity values
+2025-01-07 18:06:04,071 - INFO - 4.740488529205322
+2025-01-07 18:06:04,071 - INFO - processing for percentile 0
+2025-01-07 18:06:04,478 - INFO - processing for percentile 5
+2025-01-07 18:06:04,877 - INFO - processing for percentile 10
+2025-01-07 18:06:05,284 - INFO - processing for percentile 15
+2025-01-07 18:06:05,674 - INFO - processing for percentile 20
+2025-01-07 18:06:06,068 - INFO - processing for percentile 25
+2025-01-07 18:06:06,483 - INFO - Beginning analysis of UCLH-Cyst_0075
+2025-01-07 18:06:08,289 - INFO - There are 3150 intensity values
+2025-01-07 18:07:39,462 - INFO - 91.17277932167053
+2025-01-07 18:07:39,462 - INFO - processing for percentile 0
+2025-01-07 18:07:40,066 - INFO - processing for percentile 5
+2025-01-07 18:07:40,703 - INFO - processing for percentile 10
+2025-01-07 18:07:41,331 - INFO - processing for percentile 15
+2025-01-07 18:07:41,974 - INFO - processing for percentile 20
+2025-01-07 18:07:42,599 - INFO - processing for percentile 25
+2025-01-07 18:07:43,279 - INFO - Beginning analysis of UCLH-Cyst_0076
+2025-01-07 18:07:44,982 - INFO - There are 3468 intensity values
+2025-01-07 18:08:27,558 - INFO - 42.5757794380188
+2025-01-07 18:08:27,558 - INFO - processing for percentile 0
+2025-01-07 18:08:28,076 - INFO - processing for percentile 5
+2025-01-07 18:08:28,591 - INFO - processing for percentile 10
+2025-01-07 18:08:29,114 - INFO - processing for percentile 15
+2025-01-07 18:08:29,631 - INFO - processing for percentile 20
+2025-01-07 18:08:30,154 - INFO - processing for percentile 25
+2025-01-07 18:08:30,666 - INFO - Beginning analysis of UCLH-Cyst_0077
+2025-01-07 18:08:31,724 - INFO - There are 949 intensity values
+2025-01-07 18:08:44,749 - INFO - 13.024775505065918
+2025-01-07 18:08:44,749 - INFO - processing for percentile 0
+2025-01-07 18:08:45,135 - INFO - processing for percentile 5
+2025-01-07 18:08:45,514 - INFO - processing for percentile 10
+2025-01-07 18:08:45,900 - INFO - processing for percentile 15
+2025-01-07 18:08:46,280 - INFO - processing for percentile 20
+2025-01-07 18:08:46,668 - INFO - processing for percentile 25
+2025-01-07 18:08:47,057 - INFO - Beginning analysis of UCLH-Cyst_0078
+2025-01-07 18:08:48,691 - INFO - There are 1088 intensity values
+2025-01-07 18:09:03,801 - INFO - 15.110114574432373
+2025-01-07 18:09:03,801 - INFO - processing for percentile 0
+2025-01-07 18:09:04,271 - INFO - processing for percentile 5
+2025-01-07 18:09:04,736 - INFO - processing for percentile 10
+2025-01-07 18:09:05,205 - INFO - processing for percentile 15
+2025-01-07 18:09:05,667 - INFO - processing for percentile 20
+2025-01-07 18:09:06,133 - INFO - processing for percentile 25
+2025-01-07 18:09:06,605 - INFO - Beginning analysis of UCLH-Cyst_0079
+2025-01-07 18:09:08,048 - INFO - There are 2807 intensity values
+2025-01-07 18:09:55,541 - INFO - 47.49361777305603
+2025-01-07 18:09:55,542 - INFO - processing for percentile 0
+2025-01-07 18:09:55,974 - INFO - processing for percentile 5
+2025-01-07 18:09:56,423 - INFO - processing for percentile 10
+2025-01-07 18:09:56,869 - INFO - processing for percentile 15
+2025-01-07 18:09:57,316 - INFO - processing for percentile 20
+2025-01-07 18:09:57,757 - INFO - processing for percentile 25
+2025-01-07 18:09:58,195 - INFO - Beginning analysis of UCLH-Cyst_0080
+2025-01-07 18:09:58,978 - INFO - There are 1859 intensity values
+2025-01-07 18:10:26,865 - INFO - 27.886917114257812
+2025-01-07 18:10:26,865 - INFO - processing for percentile 0
+2025-01-07 18:10:27,132 - INFO - processing for percentile 5
+2025-01-07 18:10:27,406 - INFO - processing for percentile 10
+2025-01-07 18:10:27,689 - INFO - processing for percentile 15
+2025-01-07 18:10:27,965 - INFO - processing for percentile 20
+2025-01-07 18:10:28,236 - INFO - processing for percentile 25
+2025-01-07 18:10:28,516 - INFO - Beginning analysis of UCLH-Cyst_0081
+2025-01-07 18:10:29,355 - INFO - There are 2035 intensity values
+2025-01-07 18:11:03,666 - INFO - 34.31049132347107
+2025-01-07 18:11:03,666 - INFO - processing for percentile 0
+2025-01-07 18:11:03,951 - INFO - processing for percentile 5
+2025-01-07 18:11:04,246 - INFO - processing for percentile 10
+2025-01-07 18:11:04,541 - INFO - processing for percentile 15
+2025-01-07 18:11:04,844 - INFO - processing for percentile 20
+2025-01-07 18:11:05,143 - INFO - processing for percentile 25
+2025-01-07 18:11:05,447 - INFO - Beginning analysis of UCLH-Cyst_0082
+2025-01-07 18:11:05,854 - INFO - There are 414 intensity values
+2025-01-07 18:11:07,110 - INFO - 1.2562801837921143
+2025-01-07 18:11:07,111 - INFO - processing for percentile 0
+2025-01-07 18:11:07,252 - INFO - processing for percentile 5
+2025-01-07 18:11:07,403 - INFO - processing for percentile 10
+2025-01-07 18:11:07,553 - INFO - processing for percentile 15
+2025-01-07 18:11:07,702 - INFO - processing for percentile 20
+2025-01-07 18:11:07,861 - INFO - processing for percentile 25
+2025-01-07 18:11:08,016 - INFO - Beginning analysis of UCLH-Cyst_0083
+2025-01-07 18:11:08,932 - INFO - There are 1702 intensity values
+2025-01-07 18:11:40,739 - INFO - 31.80685257911682
+2025-01-07 18:11:40,739 - INFO - processing for percentile 0
+2025-01-07 18:11:41,077 - INFO - processing for percentile 5
+2025-01-07 18:11:41,392 - INFO - processing for percentile 10
+2025-01-07 18:11:41,733 - INFO - processing for percentile 15
+2025-01-07 18:11:42,093 - INFO - processing for percentile 20
+2025-01-07 18:11:42,433 - INFO - processing for percentile 25
+2025-01-07 18:11:42,770 - INFO - Beginning analysis of UCLH-Cyst_0084
+2025-01-07 18:11:43,958 - INFO - There are 1603 intensity values
+2025-01-07 18:12:12,356 - INFO - 28.39759874343872
+2025-01-07 18:12:12,356 - INFO - processing for percentile 0
+2025-01-07 18:12:12,757 - INFO - processing for percentile 5
+2025-01-07 18:12:13,161 - INFO - processing for percentile 10
+2025-01-07 18:12:13,576 - INFO - processing for percentile 15
+2025-01-07 18:12:13,987 - INFO - processing for percentile 20
+2025-01-07 18:12:14,400 - INFO - processing for percentile 25
+2025-01-07 18:12:14,819 - INFO - Beginning analysis of UCLH-Cyst_0085
+2025-01-07 18:12:15,504 - INFO - There are 1395 intensity values
+2025-01-07 18:12:40,286 - INFO - 24.782100915908813
+2025-01-07 18:12:40,287 - INFO - processing for percentile 0
+2025-01-07 18:12:40,536 - INFO - processing for percentile 5
+2025-01-07 18:12:40,804 - INFO - processing for percentile 10
+2025-01-07 18:12:41,065 - INFO - processing for percentile 15
+2025-01-07 18:12:41,340 - INFO - processing for percentile 20
+2025-01-07 18:12:41,615 - INFO - processing for percentile 25
+2025-01-07 18:12:41,889 - INFO - Beginning analysis of UCLH-Cyst_0086
+2025-01-07 18:12:43,450 - INFO - There are 2905 intensity values
+2025-01-07 18:13:42,616 - INFO - 59.16622829437256
+2025-01-07 18:13:42,616 - INFO - processing for percentile 0
+2025-01-07 18:13:43,110 - INFO - processing for percentile 5
+2025-01-07 18:13:43,604 - INFO - processing for percentile 10
+2025-01-07 18:13:44,105 - INFO - processing for percentile 15
+2025-01-07 18:13:44,602 - INFO - processing for percentile 20
+2025-01-07 18:13:45,109 - INFO - processing for percentile 25
+2025-01-07 18:13:45,606 - INFO - Beginning analysis of UCLH-Cyst_0087
+2025-01-07 18:13:46,599 - INFO - There are 1860 intensity values
+2025-01-07 18:14:07,323 - INFO - 20.72412371635437
+2025-01-07 18:14:07,324 - INFO - processing for percentile 0
+2025-01-07 18:14:07,633 - INFO - processing for percentile 5
+2025-01-07 18:14:07,958 - INFO - processing for percentile 10
+2025-01-07 18:14:08,272 - INFO - processing for percentile 15
+2025-01-07 18:14:08,589 - INFO - processing for percentile 20
+2025-01-07 18:14:08,932 - INFO - processing for percentile 25
+2025-01-07 18:14:09,255 - INFO - Beginning analysis of UCLH-Cyst_0088
+2025-01-07 18:14:25,407 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:14:26,107 - INFO - There are 427 intensity values
+2025-01-07 18:14:28,139 - INFO - 2.0317957401275635
+2025-01-07 18:14:28,139 - INFO - processing for percentile 0
+2025-01-07 18:14:28,373 - INFO - processing for percentile 5
+2025-01-07 18:14:28,600 - INFO - processing for percentile 10
+2025-01-07 18:14:28,829 - INFO - processing for percentile 15
+2025-01-07 18:14:29,060 - INFO - processing for percentile 20
+2025-01-07 18:14:29,294 - INFO - processing for percentile 25
+2025-01-07 18:14:29,521 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:14:30,551 - INFO - There are 3330 intensity values
+2025-01-07 18:16:22,368 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:16:23,065 - INFO - There are 427 intensity values
+2025-01-07 18:16:25,082 - INFO - 2.0162718296051025
+2025-01-07 18:16:25,082 - INFO - processing for percentile 0
+2025-01-07 18:16:25,236 - INFO - processing for percentile 5
+2025-01-07 18:16:25,385 - INFO - processing for percentile 10
+2025-01-07 18:16:25,538 - INFO - processing for percentile 15
+2025-01-07 18:16:25,687 - INFO - processing for percentile 20
+2025-01-07 18:16:25,836 - INFO - processing for percentile 25
+2025-01-07 18:16:25,989 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:16:27,026 - INFO - There are 3330 intensity values
+2025-01-07 18:17:22,422 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:17:23,120 - INFO - There are 427 intensity values
+2025-01-07 18:17:25,150 - INFO - 2.0292205810546875
+2025-01-07 18:17:25,150 - INFO - processing for percentile 0
+2025-01-07 18:17:25,301 - INFO - processing for percentile 5
+2025-01-07 18:17:25,452 - INFO - processing for percentile 10
+2025-01-07 18:17:25,603 - INFO - processing for percentile 15
+2025-01-07 18:17:25,760 - INFO - processing for percentile 20
+2025-01-07 18:17:25,914 - INFO - processing for percentile 25
+2025-01-07 18:17:26,065 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:17:27,088 - INFO - There are 3330 intensity values
+2025-01-07 18:18:19,291 - INFO - 52.20289421081543
+2025-01-07 18:18:19,291 - INFO - processing for percentile 0
+2025-01-07 18:18:19,514 - INFO - processing for percentile 5
+2025-01-07 18:18:19,748 - INFO - processing for percentile 10
+2025-01-07 18:18:19,984 - INFO - processing for percentile 15
+2025-01-07 18:18:20,220 - INFO - processing for percentile 20
+2025-01-07 18:18:20,455 - INFO - processing for percentile 25
+2025-01-07 18:18:20,687 - INFO - Beginning analysis of UCLH-Cyst_0003
+2025-01-07 18:18:21,480 - INFO - There are 1515 intensity values
+2025-01-07 18:18:44,894 - INFO - 23.41381335258484
+2025-01-07 18:18:44,894 - INFO - processing for percentile 0
+2025-01-07 18:18:45,074 - INFO - processing for percentile 5
+2025-01-07 18:18:45,263 - INFO - processing for percentile 10
+2025-01-07 18:18:45,447 - INFO - processing for percentile 15
+2025-01-07 18:18:45,635 - INFO - processing for percentile 20
+2025-01-07 18:18:45,822 - INFO - processing for percentile 25
+2025-01-07 18:18:46,021 - INFO - Beginning analysis of UCLH-Cyst_0004
+2025-01-07 18:18:46,771 - INFO - There are 2178 intensity values
+2025-01-07 18:22:25,088 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:22:25,828 - INFO - There are 427 intensity values
+2025-01-07 18:22:27,863 - INFO - 2.034635066986084
+2025-01-07 18:22:27,863 - INFO - processing for percentile 0
+2025-01-07 18:22:27,934 - INFO - processing for percentile 5
+2025-01-07 18:22:28,008 - INFO - processing for percentile 10
+2025-01-07 18:22:28,080 - INFO - processing for percentile 15
+2025-01-07 18:22:28,151 - INFO - processing for percentile 20
+2025-01-07 18:22:28,223 - INFO - processing for percentile 25
+2025-01-07 18:22:28,296 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:22:29,341 - INFO - There are 3330 intensity values
+2025-01-07 18:23:36,744 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:23:37,474 - INFO - There are 427 intensity values
+2025-01-07 18:23:39,510 - INFO - 2.036513090133667
+2025-01-07 18:23:39,510 - INFO - processing for percentile 0
+2025-01-07 18:23:39,581 - INFO - processing for percentile 5
+2025-01-07 18:23:39,658 - INFO - processing for percentile 10
+2025-01-07 18:23:39,733 - INFO - processing for percentile 15
+2025-01-07 18:23:39,803 - INFO - processing for percentile 20
+2025-01-07 18:23:39,872 - INFO - processing for percentile 25
+2025-01-07 18:23:39,942 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:23:40,993 - INFO - There are 3330 intensity values
+2025-01-07 18:30:31,776 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:30:32,532 - INFO - There are 427 intensity values
+2025-01-07 18:30:34,563 - INFO - 2.0314865112304688
+2025-01-07 18:30:34,564 - INFO - processing for percentile 0
+2025-01-07 18:30:34,841 - INFO - processing for percentile 5
+2025-01-07 18:30:35,110 - INFO - processing for percentile 10
+2025-01-07 18:30:35,390 - INFO - processing for percentile 15
+2025-01-07 18:30:35,670 - INFO - processing for percentile 20
+2025-01-07 18:30:35,940 - INFO - processing for percentile 25
+2025-01-07 18:30:36,206 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:30:59,867 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:31:00,633 - INFO - There are 427 intensity values
+2025-01-07 18:31:02,671 - INFO - 2.0376245975494385
+2025-01-07 18:31:02,671 - INFO - processing for percentile 0
+2025-01-07 18:31:02,978 - INFO - processing for percentile 5
+2025-01-07 18:31:03,266 - INFO - processing for percentile 10
+2025-01-07 18:31:03,554 - INFO - processing for percentile 15
+2025-01-07 18:31:03,850 - INFO - processing for percentile 20
+2025-01-07 18:31:04,143 - INFO - processing for percentile 25
+2025-01-07 18:31:04,456 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:33:40,903 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:33:41,687 - INFO - There are 427 intensity values
+2025-01-07 18:33:43,730 - INFO - 2.0436835289001465
+2025-01-07 18:33:43,731 - INFO - processing for percentile 0
+2025-01-07 18:33:44,067 - INFO - processing for percentile 5
+2025-01-07 18:33:44,351 - INFO - processing for percentile 10
+2025-01-07 18:33:44,640 - INFO - processing for percentile 15
+2025-01-07 18:33:44,943 - INFO - processing for percentile 20
+2025-01-07 18:33:45,241 - INFO - processing for percentile 25
+2025-01-07 18:33:45,540 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:33:46,656 - INFO - There are 3330 intensity values
+2025-01-07 18:37:44,867 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:37:45,648 - INFO - There are 427 intensity values
+2025-01-07 18:37:47,678 - INFO - 2.0291781425476074
+2025-01-07 18:37:47,678 - INFO - processing for percentile 0
+2025-01-07 18:37:47,998 - INFO - processing for percentile 5
+2025-01-07 18:37:48,263 - INFO - processing for percentile 10
+2025-01-07 18:37:48,552 - INFO - processing for percentile 15
+2025-01-07 18:37:48,833 - INFO - processing for percentile 20
+2025-01-07 18:37:49,126 - INFO - processing for percentile 25
+2025-01-07 18:37:49,405 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:38:05,004 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:38:05,787 - INFO - There are 427 intensity values
+2025-01-07 18:38:07,813 - INFO - 2.0255415439605713
+2025-01-07 18:38:07,813 - INFO - processing for percentile 0
+2025-01-07 18:38:09,050 - INFO - processing for percentile 5
+2025-01-07 18:38:10,188 - INFO - processing for percentile 10
+2025-01-07 18:38:11,399 - INFO - processing for percentile 15
+2025-01-07 18:38:28,020 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:38:28,765 - INFO - There are 427 intensity values
+2025-01-07 18:38:30,808 - INFO - 2.0428273677825928
+2025-01-07 18:38:30,808 - INFO - processing for percentile 0
+2025-01-07 18:38:32,082 - INFO - processing for percentile 5
+2025-01-07 18:38:33,270 - INFO - processing for percentile 10
+2025-01-07 18:38:34,448 - INFO - processing for percentile 15
+2025-01-07 18:38:35,657 - INFO - processing for percentile 20
+2025-01-07 18:38:36,831 - INFO - processing for percentile 25
+2025-01-07 18:39:11,324 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:39:12,104 - INFO - There are 427 intensity values
+2025-01-07 18:39:14,206 - INFO - 2.102017402648926
+2025-01-07 18:39:14,206 - INFO - processing for percentile 0
+2025-01-07 18:39:14,573 - INFO - processing for percentile 5
+2025-01-07 18:39:14,875 - INFO - processing for percentile 10
+2025-01-07 18:39:15,188 - INFO - processing for percentile 15
+2025-01-07 18:39:15,504 - INFO - processing for percentile 20
+2025-01-07 18:39:15,814 - INFO - processing for percentile 25
+2025-01-07 18:39:16,122 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:39:17,231 - INFO - There are 3330 intensity values
+2025-01-07 18:40:36,794 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:40:37,562 - INFO - There are 427 intensity values
+2025-01-07 18:40:39,614 - INFO - 2.05191969871521
+2025-01-07 18:40:39,614 - INFO - processing for percentile 0
+2025-01-07 18:46:46,920 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:46:47,655 - INFO - There are 427 intensity values
+2025-01-07 18:46:49,680 - INFO - 2.024993419647217
+2025-01-07 18:46:49,680 - INFO - processing for percentile 0
+2025-01-07 18:46:49,835 - INFO - processing for percentile 5
+2025-01-07 18:46:49,997 - INFO - processing for percentile 10
+2025-01-07 18:46:50,155 - INFO - processing for percentile 15
+2025-01-07 18:46:50,311 - INFO - processing for percentile 20
+2025-01-07 18:46:50,472 - INFO - processing for percentile 25
+2025-01-07 18:46:50,635 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:46:51,724 - INFO - There are 3330 intensity values
+2025-01-07 18:48:46,131 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:48:46,871 - INFO - There are 427 intensity values
+2025-01-07 18:48:48,904 - INFO - 2.0323476791381836
+2025-01-07 18:48:48,904 - INFO - processing for percentile 0
+2025-01-07 18:48:49,064 - INFO - processing for percentile 5
+2025-01-07 18:48:49,235 - INFO - processing for percentile 10
+2025-01-07 18:48:49,397 - INFO - processing for percentile 15
+2025-01-07 18:48:49,555 - INFO - processing for percentile 20
+2025-01-07 18:48:49,718 - INFO - processing for percentile 25
+2025-01-07 18:48:49,877 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:48:50,983 - INFO - There are 3330 intensity values
+2025-01-07 18:49:34,447 - INFO - Beginning analysis of UCLH-Cyst_0001
+2025-01-07 18:49:35,195 - INFO - There are 427 intensity values
+2025-01-07 18:49:37,235 - INFO - 2.0397772789001465
+2025-01-07 18:49:37,235 - INFO - processing for percentile 0
+2025-01-07 18:49:37,390 - INFO - processing for percentile 5
+2025-01-07 18:49:37,554 - INFO - processing for percentile 10
+2025-01-07 18:49:37,715 - INFO - processing for percentile 15
+2025-01-07 18:49:37,875 - INFO - processing for percentile 20
+2025-01-07 18:49:38,035 - INFO - processing for percentile 25
+2025-01-07 18:49:38,196 - INFO - Beginning analysis of UCLH-Cyst_0002
+2025-01-07 18:49:39,310 - INFO - There are 3330 intensity values
+2025-01-07 18:50:31,554 - INFO - 52.244123458862305
+2025-01-07 18:50:31,554 - INFO - processing for percentile 0
+2025-01-07 18:50:31,792 - INFO - processing for percentile 5
+2025-01-07 18:50:32,031 - INFO - processing for percentile 10
+2025-01-07 18:50:32,272 - INFO - processing for percentile 15
+2025-01-07 18:50:32,514 - INFO - processing for percentile 20
+2025-01-07 18:50:32,766 - INFO - processing for percentile 25
+2025-01-07 18:50:33,014 - INFO - Beginning analysis of UCLH-Cyst_0003
+2025-01-07 18:50:33,841 - INFO - There are 1515 intensity values
+2025-01-07 18:50:57,251 - INFO - 23.410561323165894
+2025-01-07 18:50:57,251 - INFO - processing for percentile 0
+2025-01-07 18:50:57,433 - INFO - processing for percentile 5
+2025-01-07 18:50:57,620 - INFO - processing for percentile 10
+2025-01-07 18:50:57,812 - INFO - processing for percentile 15
+2025-01-07 18:50:58,006 - INFO - processing for percentile 20
+2025-01-07 18:50:58,195 - INFO - processing for percentile 25
+2025-01-07 18:50:58,390 - INFO - Beginning analysis of UCLH-Cyst_0004
+2025-01-07 18:50:59,183 - INFO - There are 2178 intensity values
+2025-01-07 18:51:35,873 - INFO - 36.68974208831787
+2025-01-07 18:51:35,873 - INFO - processing for percentile 0
+2025-01-07 18:51:36,057 - INFO - processing for percentile 5
+2025-01-07 18:51:36,242 - INFO - processing for percentile 10
+2025-01-07 18:51:36,437 - INFO - processing for percentile 15
+2025-01-07 18:51:36,638 - INFO - processing for percentile 20
+2025-01-07 18:51:36,829 - INFO - processing for percentile 25
+2025-01-07 18:51:37,018 - INFO - Beginning analysis of UCLH-Cyst_0005
+2025-01-07 18:51:38,212 - INFO - There are 1313 intensity values
+2025-01-07 18:51:55,104 - INFO - 16.89213800430298
+2025-01-07 18:51:55,104 - INFO - processing for percentile 0
+2025-01-07 18:51:55,338 - INFO - processing for percentile 5
+2025-01-07 18:51:55,576 - INFO - processing for percentile 10
+2025-01-07 18:51:55,821 - INFO - processing for percentile 15
+2025-01-07 18:51:56,064 - INFO - processing for percentile 20
+2025-01-07 18:51:56,315 - INFO - processing for percentile 25
+2025-01-07 18:51:56,554 - INFO - Beginning analysis of UCLH-Cyst_0006
+2025-01-07 18:51:57,818 - INFO - There are 1260 intensity values
+2025-01-07 18:52:17,467 - INFO - 19.648984670639038
+2025-01-07 18:52:17,467 - INFO - processing for percentile 0
+2025-01-07 18:52:17,726 - INFO - processing for percentile 5
+2025-01-07 18:52:17,978 - INFO - processing for percentile 10
+2025-01-07 18:52:18,242 - INFO - processing for percentile 15
+2025-01-07 18:52:18,498 - INFO - processing for percentile 20
+2025-01-07 18:52:18,761 - INFO - processing for percentile 25
+2025-01-07 18:52:19,021 - INFO - Beginning analysis of UCLH-Cyst_0007
+2025-01-07 18:52:19,779 - INFO - There are 1051 intensity values
+2025-01-07 18:52:35,833 - INFO - 16.053894996643066
+2025-01-07 18:52:35,833 - INFO - processing for percentile 0
+2025-01-07 18:52:36,005 - INFO - processing for percentile 5
+2025-01-07 18:52:36,181 - INFO - processing for percentile 10
+2025-01-07 18:52:36,355 - INFO - processing for percentile 15
+2025-01-07 18:52:36,538 - INFO - processing for percentile 20
+2025-01-07 18:52:36,727 - INFO - processing for percentile 25
+2025-01-07 18:52:36,921 - INFO - Beginning analysis of UCLH-Cyst_0008
+2025-01-07 18:52:37,519 - INFO - There are 927 intensity values
+2025-01-07 18:52:49,046 - INFO - 11.526916265487671
+2025-01-07 18:52:49,046 - INFO - processing for percentile 0
+2025-01-07 18:52:49,166 - INFO - processing for percentile 5
+2025-01-07 18:52:49,290 - INFO - processing for percentile 10
+2025-01-07 18:52:49,414 - INFO - processing for percentile 15
+2025-01-07 18:52:49,541 - INFO - processing for percentile 20
+2025-01-07 18:52:49,669 - INFO - processing for percentile 25
+2025-01-07 18:52:49,798 - INFO - Beginning analysis of UCLH-Cyst_0009
+2025-01-07 18:52:51,514 - INFO - There are 2079 intensity values
+2025-01-07 18:53:50,111 - INFO - 58.59717679023743
+2025-01-07 18:53:50,111 - INFO - processing for percentile 0
+2025-01-07 18:53:50,486 - INFO - processing for percentile 5
+2025-01-07 18:53:50,879 - INFO - processing for percentile 10
+2025-01-07 18:53:51,268 - INFO - processing for percentile 15
+2025-01-07 18:53:51,661 - INFO - processing for percentile 20
+2025-01-07 18:53:52,066 - INFO - processing for percentile 25
+2025-01-07 18:53:52,484 - INFO - Beginning analysis of UCLH-Cyst_0010
+2025-01-07 18:53:53,489 - INFO - There are 1107 intensity values
+2025-01-07 18:54:11,339 - INFO - 17.85048198699951
+2025-01-07 18:54:11,339 - INFO - processing for percentile 0
+2025-01-07 18:54:11,547 - INFO - processing for percentile 5
+2025-01-07 18:54:11,764 - INFO - processing for percentile 10
+2025-01-07 18:54:11,980 - INFO - processing for percentile 15
+2025-01-07 18:54:12,198 - INFO - processing for percentile 20
+2025-01-07 18:54:12,413 - INFO - processing for percentile 25
+2025-01-07 18:54:12,630 - INFO - Beginning analysis of UCLH-Cyst_0011
+2025-01-07 18:54:13,932 - INFO - There are 921 intensity values
+2025-01-07 18:54:21,888 - INFO - 7.9553821086883545
+2025-01-07 18:54:21,888 - INFO - processing for percentile 0
+2025-01-07 18:54:22,138 - INFO - processing for percentile 5
+2025-01-07 18:54:22,388 - INFO - processing for percentile 10
+2025-01-07 18:54:22,649 - INFO - processing for percentile 15
+2025-01-07 18:54:22,902 - INFO - processing for percentile 20
+2025-01-07 18:54:23,161 - INFO - processing for percentile 25
+2025-01-07 18:54:23,421 - INFO - Beginning analysis of UCLH-Cyst_0012
+2025-01-07 18:54:24,439 - INFO - There are 2130 intensity values
+2025-01-07 18:54:52,030 - INFO - 27.59124255180359
+2025-01-07 18:54:52,031 - INFO - processing for percentile 0
+2025-01-07 18:54:52,272 - INFO - processing for percentile 5
+2025-01-07 18:54:52,517 - INFO - processing for percentile 10
+2025-01-07 18:54:52,767 - INFO - processing for percentile 15
+2025-01-07 18:54:53,015 - INFO - processing for percentile 20
+2025-01-07 18:54:53,266 - INFO - processing for percentile 25
+2025-01-07 18:54:53,513 - INFO - Beginning analysis of UCLH-Cyst_0013
+2025-01-07 18:54:54,184 - INFO - There are 1453 intensity values
+2025-01-07 18:55:09,269 - INFO - 15.084636211395264
+2025-01-07 18:55:09,269 - INFO - processing for percentile 0
+2025-01-07 18:55:09,412 - INFO - processing for percentile 5
+2025-01-07 18:55:09,564 - INFO - processing for percentile 10
+2025-01-07 18:55:09,714 - INFO - processing for percentile 15
+2025-01-07 18:55:09,865 - INFO - processing for percentile 20
+2025-01-07 18:55:10,013 - INFO - processing for percentile 25
+2025-01-07 18:55:10,168 - INFO - Beginning analysis of UCLH-Cyst_0014
+2025-01-07 18:55:10,616 - INFO - There are 486 intensity values
+2025-01-07 18:55:13,443 - INFO - 2.8262860774993896
+2025-01-07 18:55:13,443 - INFO - processing for percentile 0
+2025-01-07 18:55:13,532 - INFO - processing for percentile 5
+2025-01-07 18:55:13,624 - INFO - processing for percentile 10
+2025-01-07 18:55:13,715 - INFO - processing for percentile 15
+2025-01-07 18:55:13,808 - INFO - processing for percentile 20
+2025-01-07 18:55:13,901 - INFO - processing for percentile 25
+2025-01-07 18:55:13,994 - INFO - Beginning analysis of UCLH-Cyst_0015
+2025-01-07 18:55:15,443 - INFO - There are 3524 intensity values
+2025-01-07 18:56:26,070 - INFO - 70.62622046470642
+2025-01-07 18:56:26,070 - INFO - processing for percentile 0
+2025-01-07 18:56:26,353 - INFO - processing for percentile 5
+2025-01-07 18:56:26,651 - INFO - processing for percentile 10
+2025-01-07 18:56:26,946 - INFO - processing for percentile 15
+2025-01-07 18:56:27,234 - INFO - processing for percentile 20
+2025-01-07 18:56:27,537 - INFO - processing for percentile 25
+2025-01-07 18:56:27,828 - INFO - Beginning analysis of UCLH-Cyst_0016
+2025-01-07 18:56:28,879 - INFO - There are 2801 intensity values
+2025-01-07 18:57:12,123 - INFO - 43.2433876991272
+2025-01-07 18:57:12,123 - INFO - processing for percentile 0
+2025-01-07 18:57:12,352 - INFO - processing for percentile 5
+2025-01-07 18:57:12,590 - INFO - processing for percentile 10
+2025-01-07 18:57:12,835 - INFO - processing for percentile 15
+2025-01-07 18:57:13,077 - INFO - processing for percentile 20
+2025-01-07 18:57:13,322 - INFO - processing for percentile 25
+2025-01-07 18:57:13,569 - INFO - Beginning analysis of UCLH-Cyst_0017
+2025-01-07 18:57:14,524 - INFO - There are 2356 intensity values
+2025-01-07 18:57:44,427 - INFO - 29.90335488319397
+2025-01-07 18:57:44,427 - INFO - processing for percentile 0
+2025-01-07 18:57:44,625 - INFO - processing for percentile 5
+2025-01-07 18:57:44,835 - INFO - processing for percentile 10
+2025-01-07 18:57:45,043 - INFO - processing for percentile 15
+2025-01-07 18:57:45,262 - INFO - processing for percentile 20
+2025-01-07 18:57:45,467 - INFO - processing for percentile 25
+2025-01-07 18:57:45,679 - INFO - Beginning analysis of UCLH-Cyst_0018
+2025-01-07 18:57:47,272 - INFO - There are 2683 intensity values
+2025-01-07 18:58:40,440 - INFO - 53.16732406616211
+2025-01-07 18:58:40,440 - INFO - processing for percentile 0
+2025-01-07 18:58:40,756 - INFO - processing for percentile 5
+2025-01-07 18:58:41,085 - INFO - processing for percentile 10
+2025-01-07 18:58:41,418 - INFO - processing for percentile 15
+2025-01-07 18:58:41,747 - INFO - processing for percentile 20
+2025-01-07 18:58:42,082 - INFO - processing for percentile 25
+2025-01-07 18:58:42,426 - INFO - Beginning analysis of UCLH-Cyst_0019
+2025-01-07 18:58:43,729 - INFO - There are 1689 intensity values
+2025-01-07 18:59:01,011 - INFO - 17.281839847564697
+2025-01-07 18:59:01,011 - INFO - processing for percentile 0
+2025-01-07 18:59:01,248 - INFO - processing for percentile 5
+2025-01-07 18:59:01,488 - INFO - processing for percentile 10
+2025-01-07 18:59:01,730 - INFO - processing for percentile 15
+2025-01-07 18:59:01,973 - INFO - processing for percentile 20
+2025-01-07 18:59:02,215 - INFO - processing for percentile 25
+2025-01-07 18:59:02,462 - INFO - Beginning analysis of UCLH-Cyst_0020
+2025-01-07 18:59:03,902 - INFO - There are 1477 intensity values
+2025-01-07 18:59:19,698 - INFO - 15.796284914016724
+2025-01-07 18:59:19,698 - INFO - processing for percentile 0
+2025-01-07 18:59:19,965 - INFO - processing for percentile 5
+2025-01-07 18:59:20,233 - INFO - processing for percentile 10
+2025-01-07 18:59:20,509 - INFO - processing for percentile 15
+2025-01-07 18:59:20,782 - INFO - processing for percentile 20
+2025-01-07 18:59:21,056 - INFO - processing for percentile 25
+2025-01-07 18:59:21,331 - INFO - Beginning analysis of UCLH-Cyst_0021
+2025-01-07 18:59:21,883 - INFO - There are 899 intensity values
+2025-01-07 18:59:29,047 - INFO - 7.163646221160889
+2025-01-07 18:59:29,047 - INFO - processing for percentile 0
+2025-01-07 18:59:29,176 - INFO - processing for percentile 5
+2025-01-07 18:59:29,313 - INFO - processing for percentile 10
+2025-01-07 18:59:29,444 - INFO - processing for percentile 15
+2025-01-07 18:59:29,582 - INFO - processing for percentile 20
+2025-01-07 18:59:29,714 - INFO - processing for percentile 25
+2025-01-07 18:59:29,848 - INFO - Beginning analysis of UCLH-Cyst_0022
+2025-01-07 18:59:30,703 - INFO - There are 1183 intensity values
+2025-01-07 18:59:47,508 - INFO - 16.805049180984497
+2025-01-07 18:59:47,509 - INFO - processing for percentile 0
+2025-01-07 18:59:47,694 - INFO - processing for percentile 5
+2025-01-07 18:59:47,876 - INFO - processing for percentile 10
+2025-01-07 18:59:48,070 - INFO - processing for percentile 15
+2025-01-07 18:59:48,260 - INFO - processing for percentile 20
+2025-01-07 18:59:48,454 - INFO - processing for percentile 25
+2025-01-07 18:59:48,649 - INFO - Beginning analysis of UCLH-Cyst_0023
+2025-01-07 18:59:49,819 - INFO - There are 3100 intensity values
+2025-01-07 19:00:57,596 - INFO - 67.7766592502594
+2025-01-07 19:00:57,596 - INFO - processing for percentile 0
+2025-01-07 19:00:57,841 - INFO - processing for percentile 5
+2025-01-07 19:00:58,106 - INFO - processing for percentile 10
+2025-01-07 19:00:58,370 - INFO - processing for percentile 15
+2025-01-07 19:00:58,637 - INFO - processing for percentile 20
+2025-01-07 19:00:58,917 - INFO - processing for percentile 25
+2025-01-07 19:00:59,193 - INFO - Beginning analysis of UCLH-Cyst_0024
+2025-01-07 19:00:59,682 - INFO - There are 1261 intensity values
+2025-01-07 19:01:24,304 - INFO - 24.621128797531128
+2025-01-07 19:01:24,304 - INFO - processing for percentile 0
+2025-01-07 19:01:24,416 - INFO - processing for percentile 5
+2025-01-07 19:01:24,540 - INFO - processing for percentile 10
+2025-01-07 19:01:24,662 - INFO - processing for percentile 15
+2025-01-07 19:01:24,790 - INFO - processing for percentile 20
+2025-01-07 19:01:24,921 - INFO - processing for percentile 25
+2025-01-07 19:01:25,063 - INFO - Beginning analysis of UCLH-Cyst_0025
+2025-01-07 19:01:26,527 - INFO - There are 868 intensity values
+2025-01-07 19:01:36,106 - INFO - 9.579341650009155
+2025-01-07 19:01:36,106 - INFO - processing for percentile 0
+2025-01-07 19:01:36,382 - INFO - processing for percentile 5
+2025-01-07 19:01:36,665 - INFO - processing for percentile 10
+2025-01-07 19:01:36,945 - INFO - processing for percentile 15
+2025-01-07 19:01:37,237 - INFO - processing for percentile 20
+2025-01-07 19:01:37,520 - INFO - processing for percentile 25
+2025-01-07 19:01:37,810 - INFO - Beginning analysis of UCLH-Cyst_0026
+2025-01-07 19:01:38,580 - INFO - There are 1246 intensity values
+2025-01-07 19:01:57,243 - INFO - 18.662838459014893
+2025-01-07 19:01:57,243 - INFO - processing for percentile 0
+2025-01-07 19:01:57,401 - INFO - processing for percentile 5
+2025-01-07 19:01:57,573 - INFO - processing for percentile 10
+2025-01-07 19:01:57,744 - INFO - processing for percentile 15
+2025-01-07 19:01:57,918 - INFO - processing for percentile 20
+2025-01-07 19:01:58,093 - INFO - processing for percentile 25
+2025-01-07 19:01:58,272 - INFO - Beginning analysis of UCLH-Cyst_0027
+2025-01-07 19:01:59,442 - INFO - There are 911 intensity values
+2025-01-07 19:02:08,898 - INFO - 9.455673933029175
+2025-01-07 19:02:08,898 - INFO - processing for percentile 0
+2025-01-07 19:02:09,122 - INFO - processing for percentile 5
+2025-01-07 19:02:09,350 - INFO - processing for percentile 10
+2025-01-07 19:02:09,579 - INFO - processing for percentile 15
+2025-01-07 19:02:09,805 - INFO - processing for percentile 20
+2025-01-07 19:02:10,034 - INFO - processing for percentile 25
+2025-01-07 19:02:10,268 - INFO - Beginning analysis of UCLH-Cyst_0028
+2025-01-07 19:02:11,583 - INFO - There are 1638 intensity values
+2025-01-07 19:02:37,304 - INFO - 25.72110080718994
+2025-01-07 19:02:37,304 - INFO - processing for percentile 0
+2025-01-07 19:02:37,626 - INFO - processing for percentile 5
+2025-01-07 19:02:37,950 - INFO - processing for percentile 10
+2025-01-07 19:02:38,285 - INFO - processing for percentile 15
+2025-01-07 19:02:38,611 - INFO - processing for percentile 20
+2025-01-07 19:02:38,941 - INFO - processing for percentile 25
+2025-01-07 19:02:39,263 - INFO - Beginning analysis of UCLH-Cyst_0029
+2025-01-07 19:02:40,050 - INFO - There are 910 intensity values
+2025-01-07 19:02:47,762 - INFO - 7.712408065795898
+2025-01-07 19:02:47,762 - INFO - processing for percentile 0
+2025-01-07 19:02:47,928 - INFO - processing for percentile 5
+2025-01-07 19:02:48,104 - INFO - processing for percentile 10
+2025-01-07 19:02:48,277 - INFO - processing for percentile 15
+2025-01-07 19:02:48,460 - INFO - processing for percentile 20
+2025-01-07 19:02:48,638 - INFO - processing for percentile 25
+2025-01-07 19:02:48,815 - INFO - Beginning analysis of UCLH-Cyst_0030
+2025-01-07 19:02:50,121 - INFO - There are 782 intensity values
+2025-01-07 19:02:56,434 - INFO - 6.313056230545044
+2025-01-07 19:02:56,434 - INFO - processing for percentile 0
+2025-01-07 19:02:56,746 - INFO - processing for percentile 5
+2025-01-07 19:02:57,058 - INFO - processing for percentile 10
+2025-01-07 19:02:57,376 - INFO - processing for percentile 15
+2025-01-07 19:02:57,693 - INFO - processing for percentile 20
+2025-01-07 19:02:58,005 - INFO - processing for percentile 25
+2025-01-07 19:02:58,317 - INFO - Beginning analysis of UCLH-Cyst_0031
+2025-01-07 19:02:58,966 - INFO - There are 686 intensity values
+2025-01-07 19:03:04,293 - INFO - 5.326219081878662
+2025-01-07 19:03:04,293 - INFO - processing for percentile 0
+2025-01-07 19:03:04,448 - INFO - processing for percentile 5
+2025-01-07 19:03:04,610 - INFO - processing for percentile 10
+2025-01-07 19:03:04,767 - INFO - processing for percentile 15
+2025-01-07 19:03:04,925 - INFO - processing for percentile 20
+2025-01-07 19:03:05,083 - INFO - processing for percentile 25
+2025-01-07 19:03:05,245 - INFO - Beginning analysis of UCLH-Cyst_0032
+2025-01-07 19:03:06,189 - INFO - There are 1650 intensity values
+2025-01-07 19:03:34,547 - INFO - 28.358227968215942
+2025-01-07 19:03:34,547 - INFO - processing for percentile 0
+2025-01-07 19:03:34,756 - INFO - processing for percentile 5
+2025-01-07 19:03:34,958 - INFO - processing for percentile 10
+2025-01-07 19:03:35,162 - INFO - processing for percentile 15
+2025-01-07 19:03:35,369 - INFO - processing for percentile 20
+2025-01-07 19:03:35,570 - INFO - processing for percentile 25
+2025-01-07 19:03:35,787 - INFO - Beginning analysis of UCLH-Cyst_0033
+2025-01-07 19:03:37,225 - INFO - There are 936 intensity values
+2025-01-07 19:03:53,011 - INFO - 15.785935640335083
+2025-01-07 19:03:53,011 - INFO - processing for percentile 0
+2025-01-07 19:03:53,345 - INFO - processing for percentile 5
+2025-01-07 19:03:53,680 - INFO - processing for percentile 10
+2025-01-07 19:03:54,018 - INFO - processing for percentile 15
+2025-01-07 19:03:54,355 - INFO - processing for percentile 20
+2025-01-07 19:03:54,692 - INFO - processing for percentile 25
+2025-01-07 19:03:55,032 - INFO - Beginning analysis of UCLH-Cyst_0034
+2025-01-07 19:03:56,440 - INFO - There are 276 intensity values
+2025-01-07 19:03:57,856 - INFO - 1.4154000282287598
+2025-01-07 19:03:57,856 - INFO - processing for percentile 0
+2025-01-07 19:03:58,110 - INFO - processing for percentile 5
+2025-01-07 19:03:58,366 - INFO - processing for percentile 10
+2025-01-07 19:03:58,624 - INFO - processing for percentile 15
+2025-01-07 19:03:58,891 - INFO - processing for percentile 20
+2025-01-07 19:03:59,154 - INFO - processing for percentile 25
+2025-01-07 19:03:59,413 - INFO - Beginning analysis of UCLH-Cyst_0035
+2025-01-07 19:04:01,278 - INFO - There are 1139 intensity values
+2025-01-07 19:04:22,070 - INFO - 20.7919180393219
+2025-01-07 19:04:22,071 - INFO - processing for percentile 0
+2025-01-07 19:04:22,436 - INFO - processing for percentile 5
+2025-01-07 19:04:22,810 - INFO - processing for percentile 10
+2025-01-07 19:04:23,186 - INFO - processing for percentile 15
+2025-01-07 19:04:23,559 - INFO - processing for percentile 20
+2025-01-07 19:04:23,969 - INFO - processing for percentile 25
+2025-01-07 19:04:24,346 - INFO - Beginning analysis of UCLH-Cyst_0036
+2025-01-07 19:04:26,193 - INFO - There are 1829 intensity values
+2025-01-07 19:05:26,629 - INFO - 60.43591570854187
+2025-01-07 19:05:26,629 - INFO - processing for percentile 0
+2025-01-07 19:05:27,007 - INFO - processing for percentile 5
+2025-01-07 19:05:27,409 - INFO - processing for percentile 10
+2025-01-07 19:05:27,808 - INFO - processing for percentile 15
+2025-01-07 19:05:28,207 - INFO - processing for percentile 20
+2025-01-07 19:05:28,619 - INFO - processing for percentile 25
+2025-01-07 19:05:29,041 - INFO - Beginning analysis of UCLH-Cyst_0037
+2025-01-07 19:05:29,670 - INFO - There are 742 intensity values
+2025-01-07 19:05:36,854 - INFO - 7.184370994567871
+2025-01-07 19:05:36,854 - INFO - processing for percentile 0
+2025-01-07 19:05:36,976 - INFO - processing for percentile 5
+2025-01-07 19:05:37,107 - INFO - processing for percentile 10
+2025-01-07 19:05:37,237 - INFO - processing for percentile 15
+2025-01-07 19:05:37,366 - INFO - processing for percentile 20
+2025-01-07 19:05:37,493 - INFO - processing for percentile 25
+2025-01-07 19:05:37,626 - INFO - Beginning analysis of UCLH-Cyst_0038
+2025-01-07 19:05:39,116 - INFO - There are 2670 intensity values
+2025-01-07 19:06:32,911 - INFO - 53.794527530670166
+2025-01-07 19:06:32,911 - INFO - processing for percentile 0
+2025-01-07 19:06:33,287 - INFO - processing for percentile 5
+2025-01-07 19:06:33,671 - INFO - processing for percentile 10
+2025-01-07 19:06:34,057 - INFO - processing for percentile 15
+2025-01-07 19:06:34,441 - INFO - processing for percentile 20
+2025-01-07 19:06:34,829 - INFO - processing for percentile 25
+2025-01-07 19:06:35,219 - INFO - Beginning analysis of UCLH-Cyst_0039
+2025-01-07 19:06:36,510 - INFO - There are 1490 intensity values
+2025-01-07 19:07:02,223 - INFO - 25.71314835548401
+2025-01-07 19:07:02,223 - INFO - processing for percentile 0
+2025-01-07 19:07:02,510 - INFO - processing for percentile 5
+2025-01-07 19:07:02,805 - INFO - processing for percentile 10
+2025-01-07 19:07:03,108 - INFO - processing for percentile 15
+2025-01-07 19:07:03,393 - INFO - processing for percentile 20
+2025-01-07 19:07:03,689 - INFO - processing for percentile 25
+2025-01-07 19:07:03,976 - INFO - Beginning analysis of UCLH-Cyst_0040
+2025-01-07 19:07:05,366 - INFO - There are 1025 intensity values
+2025-01-07 19:07:20,081 - INFO - 14.715062618255615
+2025-01-07 19:07:20,081 - INFO - processing for percentile 0
+2025-01-07 19:07:20,356 - INFO - processing for percentile 5
+2025-01-07 19:07:20,637 - INFO - processing for percentile 10
+2025-01-07 19:07:20,921 - INFO - processing for percentile 15
+2025-01-07 19:07:21,209 - INFO - processing for percentile 20
+2025-01-07 19:07:21,497 - INFO - processing for percentile 25
+2025-01-07 19:07:21,802 - INFO - Beginning analysis of UCLH-Cyst_0041
+2025-01-07 19:07:23,347 - INFO - There are 1141 intensity values
+2025-01-07 19:07:36,624 - INFO - 13.277415990829468
+2025-01-07 19:07:36,624 - INFO - processing for percentile 0
+2025-01-07 19:07:37,010 - INFO - processing for percentile 5
+2025-01-07 19:07:37,392 - INFO - processing for percentile 10
+2025-01-07 19:07:37,769 - INFO - processing for percentile 15
+2025-01-07 19:07:38,152 - INFO - processing for percentile 20
+2025-01-07 19:07:38,541 - INFO - processing for percentile 25
+2025-01-07 19:07:38,929 - INFO - Beginning analysis of UCLH-Cyst_0042
+2025-01-07 19:07:40,248 - INFO - There are 2767 intensity values
+2025-01-07 19:08:23,519 - INFO - 43.270907402038574
+2025-01-07 19:08:23,519 - INFO - processing for percentile 0
+2025-01-07 19:08:23,801 - INFO - processing for percentile 5
+2025-01-07 19:08:24,098 - INFO - processing for percentile 10
+2025-01-07 19:08:24,387 - INFO - processing for percentile 15
+2025-01-07 19:08:24,674 - INFO - processing for percentile 20
+2025-01-07 19:08:24,974 - INFO - processing for percentile 25
+2025-01-07 19:08:25,283 - INFO - Beginning analysis of UCLH-Cyst_0043
+2025-01-07 19:08:26,806 - INFO - There are 1837 intensity values
+2025-01-07 19:09:10,148 - INFO - 43.34160304069519
+2025-01-07 19:09:10,148 - INFO - processing for percentile 0
+2025-01-07 19:09:10,449 - INFO - processing for percentile 5
+2025-01-07 19:09:10,749 - INFO - processing for percentile 10
+2025-01-07 19:09:11,143 - INFO - processing for percentile 15
+2025-01-07 19:09:11,461 - INFO - processing for percentile 20
+2025-01-07 19:09:11,772 - INFO - processing for percentile 25
+2025-01-07 19:09:12,090 - INFO - Beginning analysis of UCLH-Cyst_0044
+2025-01-07 19:09:13,217 - INFO - There are 1998 intensity values
+2025-01-07 19:09:56,530 - INFO - 43.312278270721436
+2025-01-07 19:09:56,530 - INFO - processing for percentile 0
+2025-01-07 19:09:56,775 - INFO - processing for percentile 5
+2025-01-07 19:09:57,037 - INFO - processing for percentile 10
+2025-01-07 19:09:57,297 - INFO - processing for percentile 15
+2025-01-07 19:09:57,560 - INFO - processing for percentile 20
+2025-01-07 19:09:57,811 - INFO - processing for percentile 25
+2025-01-07 19:09:58,064 - INFO - Beginning analysis of UCLH-Cyst_0045
+2025-01-07 19:09:58,846 - INFO - There are 1246 intensity values
+2025-01-07 19:10:20,722 - INFO - 21.876102209091187
+2025-01-07 19:10:20,722 - INFO - processing for percentile 0
+2025-01-07 19:10:20,887 - INFO - processing for percentile 5
+2025-01-07 19:10:21,058 - INFO - processing for percentile 10
+2025-01-07 19:10:21,233 - INFO - processing for percentile 15
+2025-01-07 19:10:21,410 - INFO - processing for percentile 20
+2025-01-07 19:10:21,594 - INFO - processing for percentile 25
+2025-01-07 19:10:21,777 - INFO - Beginning analysis of UCLH-Cyst_0046
+2025-01-07 19:10:23,237 - INFO - There are 2050 intensity values
+2025-01-07 19:11:08,846 - INFO - 45.60882377624512
+2025-01-07 19:11:08,846 - INFO - processing for percentile 0
+2025-01-07 19:11:09,137 - INFO - processing for percentile 5
+2025-01-07 19:11:09,444 - INFO - processing for percentile 10
+2025-01-07 19:11:09,749 - INFO - processing for percentile 15
+2025-01-07 19:11:10,055 - INFO - processing for percentile 20
+2025-01-07 19:11:10,368 - INFO - processing for percentile 25
+2025-01-07 19:11:10,682 - INFO - Beginning analysis of UCLH-Cyst_0047
+2025-01-07 19:11:13,004 - INFO - There are 2990 intensity values
+2025-01-07 19:12:40,515 - INFO - 87.5109691619873
+2025-01-07 19:12:40,515 - INFO - processing for percentile 0
+2025-01-07 19:12:41,045 - INFO - processing for percentile 5
+2025-01-07 19:12:41,597 - INFO - processing for percentile 10
+2025-01-07 19:12:42,126 - INFO - processing for percentile 15
+2025-01-07 19:12:42,666 - INFO - processing for percentile 20
+2025-01-07 19:12:43,205 - INFO - processing for percentile 25
+2025-01-07 19:12:43,742 - INFO - Beginning analysis of UCLH-Cyst_0048
+2025-01-07 19:12:44,895 - INFO - There are 3566 intensity values
+2025-01-07 19:13:30,764 - INFO - 45.86870074272156
+2025-01-07 19:13:30,764 - INFO - processing for percentile 0
+2025-01-07 19:13:30,978 - INFO - processing for percentile 5
+2025-01-07 19:13:31,198 - INFO - processing for percentile 10
+2025-01-07 19:13:31,421 - INFO - processing for percentile 15
+2025-01-07 19:13:31,656 - INFO - processing for percentile 20
+2025-01-07 19:13:31,894 - INFO - processing for percentile 25
+2025-01-07 19:13:32,126 - INFO - Beginning analysis of UCLH-Cyst_0049
+2025-01-07 19:13:33,104 - INFO - There are 1874 intensity values
+2025-01-07 19:14:00,130 - INFO - 27.025623083114624
+2025-01-07 19:14:00,130 - INFO - processing for percentile 0
+2025-01-07 19:14:00,328 - INFO - processing for percentile 5
+2025-01-07 19:14:00,541 - INFO - processing for percentile 10
+2025-01-07 19:14:00,762 - INFO - processing for percentile 15
+2025-01-07 19:14:00,974 - INFO - processing for percentile 20
+2025-01-07 19:14:01,187 - INFO - processing for percentile 25
+2025-01-07 19:14:01,400 - INFO - Beginning analysis of UCLH-Cyst_0050
+2025-01-07 19:14:02,294 - INFO - There are 1861 intensity values
+2025-01-07 19:14:44,939 - INFO - 42.644562005996704
+2025-01-07 19:14:44,939 - INFO - processing for percentile 0
+2025-01-07 19:14:45,127 - INFO - processing for percentile 5
+2025-01-07 19:14:45,322 - INFO - processing for percentile 10
+2025-01-07 19:14:45,514 - INFO - processing for percentile 15
+2025-01-07 19:14:45,709 - INFO - processing for percentile 20
+2025-01-07 19:14:45,905 - INFO - processing for percentile 25
+2025-01-07 19:14:46,122 - INFO - Beginning analysis of UCLH-Cyst_0051
+2025-01-07 19:14:47,127 - INFO - There are 2021 intensity values
+2025-01-07 19:15:08,217 - INFO - 21.08968210220337
+2025-01-07 19:15:08,217 - INFO - processing for percentile 0
+2025-01-07 19:15:08,414 - INFO - processing for percentile 5
+2025-01-07 19:15:08,618 - INFO - processing for percentile 10
+2025-01-07 19:15:08,818 - INFO - processing for percentile 15
+2025-01-07 19:15:09,026 - INFO - processing for percentile 20
+2025-01-07 19:15:09,251 - INFO - processing for percentile 25
+2025-01-07 19:15:09,457 - INFO - Beginning analysis of UCLH-Cyst_0052
+2025-01-07 19:15:10,625 - INFO - There are 3201 intensity values
+2025-01-07 19:15:55,876 - INFO - 45.250961780548096
+2025-01-07 19:15:55,876 - INFO - processing for percentile 0
+2025-01-07 19:15:56,099 - INFO - processing for percentile 5
+2025-01-07 19:15:56,329 - INFO - processing for percentile 10
+2025-01-07 19:15:56,553 - INFO - processing for percentile 15
+2025-01-07 19:15:56,784 - INFO - processing for percentile 20
+2025-01-07 19:15:57,020 - INFO - processing for percentile 25
+2025-01-07 19:15:57,262 - INFO - Beginning analysis of UCLH-Cyst_0053
+2025-01-07 19:15:58,063 - INFO - There are 977 intensity values
+2025-01-07 19:16:10,077 - INFO - 12.014518022537231
+2025-01-07 19:16:10,078 - INFO - processing for percentile 0
+2025-01-07 19:16:10,249 - INFO - processing for percentile 5
+2025-01-07 19:16:10,429 - INFO - processing for percentile 10
+2025-01-07 19:16:10,609 - INFO - processing for percentile 15
+2025-01-07 19:16:10,787 - INFO - processing for percentile 20
+2025-01-07 19:16:10,966 - INFO - processing for percentile 25
+2025-01-07 19:16:11,143 - INFO - Beginning analysis of UCLH-Cyst_0054
+2025-01-07 19:16:11,862 - INFO - There are 3717 intensity values
+2025-01-07 19:16:52,987 - INFO - 41.12544894218445
+2025-01-07 19:16:52,987 - INFO - processing for percentile 0
+2025-01-07 19:16:53,148 - INFO - processing for percentile 5
+2025-01-07 19:16:53,317 - INFO - processing for percentile 10
+2025-01-07 19:16:53,483 - INFO - processing for percentile 15
+2025-01-07 19:16:53,668 - INFO - processing for percentile 20
+2025-01-07 19:16:53,834 - INFO - processing for percentile 25
+2025-01-07 19:16:54,002 - INFO - Beginning analysis of UCLH-Cyst_0055
+2025-01-07 19:16:55,529 - INFO - There are 2335 intensity values
+2025-01-07 19:17:38,503 - INFO - 42.973989486694336
+2025-01-07 19:17:38,503 - INFO - processing for percentile 0
+2025-01-07 19:17:38,806 - INFO - processing for percentile 5
+2025-01-07 19:17:39,108 - INFO - processing for percentile 10
+2025-01-07 19:17:39,415 - INFO - processing for percentile 15
+2025-01-07 19:17:39,717 - INFO - processing for percentile 20
+2025-01-07 19:17:40,034 - INFO - processing for percentile 25
+2025-01-07 19:17:40,339 - INFO - Beginning analysis of UCLH-Cyst_0056
+2025-01-07 19:17:41,561 - INFO - There are 3087 intensity values
+2025-01-07 19:18:26,633 - INFO - 45.07195281982422
+2025-01-07 19:18:26,633 - INFO - processing for percentile 0
+2025-01-07 19:18:26,898 - INFO - processing for percentile 5
+2025-01-07 19:18:27,178 - INFO - processing for percentile 10
+2025-01-07 19:18:27,451 - INFO - processing for percentile 15
+2025-01-07 19:18:27,726 - INFO - processing for percentile 20
+2025-01-07 19:18:27,998 - INFO - processing for percentile 25
+2025-01-07 19:18:28,274 - INFO - Beginning analysis of UCLH-Cyst_0057
+2025-01-07 19:18:29,825 - INFO - There are 1945 intensity values
+2025-01-07 19:19:02,943 - INFO - 33.11759877204895
+2025-01-07 19:19:02,943 - INFO - processing for percentile 0
+2025-01-07 19:19:03,254 - INFO - processing for percentile 5
+2025-01-07 19:19:03,549 - INFO - processing for percentile 10
+2025-01-07 19:19:03,866 - INFO - processing for percentile 15
+2025-01-07 19:19:04,188 - INFO - processing for percentile 20
+2025-01-07 19:19:04,495 - INFO - processing for percentile 25
+2025-01-07 19:19:04,791 - INFO - Beginning analysis of UCLH-Cyst_0058
+2025-01-07 19:19:05,452 - INFO - There are 1224 intensity values
+2025-01-07 19:19:17,506 - INFO - 12.053618669509888
+2025-01-07 19:19:17,506 - INFO - processing for percentile 0
+2025-01-07 19:19:17,644 - INFO - processing for percentile 5
+2025-01-07 19:19:17,784 - INFO - processing for percentile 10
+2025-01-07 19:19:17,927 - INFO - processing for percentile 15
+2025-01-07 19:19:18,067 - INFO - processing for percentile 20
+2025-01-07 19:19:18,207 - INFO - processing for percentile 25
+2025-01-07 19:19:18,352 - INFO - Beginning analysis of UCLH-Cyst_0059
+2025-01-07 19:19:19,488 - INFO - There are 797 intensity values
+2025-01-07 19:19:29,717 - INFO - 10.228887796401978
+2025-01-07 19:19:29,717 - INFO - processing for percentile 0
+2025-01-07 19:19:29,942 - INFO - processing for percentile 5
+2025-01-07 19:19:30,165 - INFO - processing for percentile 10
+2025-01-07 19:19:30,397 - INFO - processing for percentile 15
+2025-01-07 19:19:30,628 - INFO - processing for percentile 20
+2025-01-07 19:19:30,861 - INFO - processing for percentile 25
+2025-01-07 19:19:31,088 - INFO - Beginning analysis of UCLH-Cyst_0060
+2025-01-07 19:19:32,903 - INFO - There are 1826 intensity values
+2025-01-07 19:20:03,158 - INFO - 30.254677772521973
+2025-01-07 19:20:03,158 - INFO - processing for percentile 0
+2025-01-07 19:20:03,519 - INFO - processing for percentile 5
+2025-01-07 19:20:03,881 - INFO - processing for percentile 10
+2025-01-07 19:20:04,245 - INFO - processing for percentile 15
+2025-01-07 19:20:04,623 - INFO - processing for percentile 20
+2025-01-07 19:20:04,990 - INFO - processing for percentile 25
+2025-01-07 19:20:05,362 - INFO - Beginning analysis of UCLH-Cyst_0061
+2025-01-07 19:20:06,680 - INFO - There are 3658 intensity values
+2025-01-07 19:21:16,827 - INFO - 70.14642667770386
+2025-01-07 19:21:16,827 - INFO - processing for percentile 0
+2025-01-07 19:21:17,136 - INFO - processing for percentile 5
+2025-01-07 19:21:17,467 - INFO - processing for percentile 10
+2025-01-07 19:21:17,798 - INFO - processing for percentile 15
+2025-01-07 19:21:18,122 - INFO - processing for percentile 20
+2025-01-07 19:21:18,451 - INFO - processing for percentile 25
+2025-01-07 19:21:18,792 - INFO - Beginning analysis of UCLH-Cyst_0062
+2025-01-07 19:21:20,392 - INFO - There are 3944 intensity values
