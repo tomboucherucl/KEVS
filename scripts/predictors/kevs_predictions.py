@@ -11,7 +11,7 @@ import logging
 from tqdm import tqdm
 
 # Configure logging
-logging.basicConfig(filename='kevs_prediction_full_volume.log', level=logging.INFO,
+logging.basicConfig(filename='kevs_prediction.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
@@ -96,7 +96,7 @@ def vat_gkde(scan_dir, umamba_prediction_dir, percentiles):
             
             print(np.sum(abd_cav_filtered_mask))
             
-            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "KEVS_VAT", f"pd_{percentile}" )
+            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",  "data", "vat", "KEVS", f"pd_{percentile}" )
             os.makedirs(output_dir, exist_ok=True)        
 
             # Save prediction to output dir
@@ -166,7 +166,7 @@ def vat_gkde_full_scan(scan_dir, umamba_prediction_dir, percentiles):
         time_before_thresholding = time.time()
         for percentile in percentiles:
             # Calculate lower threshold of probability density values.
-            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "vat", "predictions", "KEVS_full_volume", f"pd_{percentile}" )
+            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..",  "data", "vat", "KEVS", f"pd_{percentile}" )
             os.makedirs(output_dir, exist_ok=True)
             lower_threshold = np.percentile(kde_abd_values, percentile)
             abd_cav_filtered_mask = np.zeros_like(umamba_abd_cav_pred)
@@ -181,8 +181,8 @@ def vat_gkde_full_scan(scan_dir, umamba_prediction_dir, percentiles):
     return total_fitting_time, average_thresholding_time
             
 def KEVS_prediction():
-    scans_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "filtered_scans_relabelled")
-    output_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "filtered_preds_relabelled")
+    scans_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "scans")
+    output_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "umamba_predictions")
     dataset_id = "200"
     configuration = "3d_fullres"
     folds = "all"
@@ -203,7 +203,7 @@ def KEVS_prediction():
     
 
     #logging.info(f"The total time for the bounded region KEVS prediction was {full_fitting_time + full_thresholding_time}s this is an average of {(full_fitting_time + full_thresholding_time)/20}s. Of this, {full_fitting_time}s was just for fitting the kernel.")
-    logging.info(f"The total time for the single slice KEVS was {fitting_time + thresholding_time} this is an average of {(fitting_time + thresholding_time)/98}. Of this, {fitting_time}s was just for fitting the kernel.")
+    #logging.info(f"The total time for the single slice KEVS was {fitting_time + thresholding_time} this is an average of {(fitting_time + thresholding_time)/98}. Of this, {fitting_time}s was just for fitting the kernel.")
         
         
     

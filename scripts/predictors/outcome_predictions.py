@@ -1,55 +1,86 @@
 import optuna
 import numpy as np
 import pandas as pd
+import xgboost as xgb
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import roc_auc_score, f1_score, accuracy_score, precision_score, recall_score
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
 import logging
-import matplotlib.pyplot as plt
+import os
 
 logging.basicConfig(filename='outcome_predictions.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 def read_data(target, data_included):
-    if target == 'P-LOS':
-        column_choice = -3
-    elif target == 'POMS3>1':
-        column_choice = -2
-    elif target == 'Infectious':
-        column_choice = -1
+    """Reads data from Excel and prepares it for modeling."""
     
-    data = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "csv", f"predictions.csv" ))
-    y_data = data[data.columns[column_choice]]  # The last column is the target variable
-    x_data = data.drop(labels=[data.columns[-3:-1]], axis=1)  # Drop the last three columns (targets)
+    csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "csv", f"Nifti_info.csv")
+    try:
+        data = pd.read_csv(csv_path)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Could not find the excel file at path {csv_path}")
+
+    # Drop the first column (index)
+    data = data.iloc[:, 1:]
     
-    if data_included == 'CHAR':
-        continue
-    elif data_included == 'CHAR+VAT':
-        continue
-    elif data_included == 'CHAR+FULL':
-        continue
+    # Define target column names
+    target_columns = {
+        'P-LOS': 'P-LOS',
+        'Infectious': 'Infectious',
+        'POMS3>1': 'POMS3>1',
+        'Pulmonary':'Pulmonary',
+        'Renal': 'Renal',
+    }
+
+    # Validate target
+    if target not in target_columns:
+        raise ValueError(f"Invalid target: {target}. Must be one of {', '.join(target_columns.keys())}")
+
+    y_data = data[target_columns[target]]
+    
+    # Define feature column groupings based on the number of columns to drop
+    num_cols_to_drop = {
+        'CHAR': 89,
+        'CHAR+VAT': 77,
+        'CHAR+FULL': 5
+    }
+
+    # Validate data_included
+    if data_included not in num_cols_to_drop:
+        raise ValueError(f"Invalid data included argument: {data_included}. Must be one of {', '.join(num_cols_to_drop.keys())}")
+
+    # Select features based on the type argument, dropping the correct number of columns from the end
+    x_data = data.iloc[:, :-num_cols_to_drop[data_included]]
+
+    # Dynamically determine column types based on the actual columns in x_data
+    num_binary_cols = 22
+    binary_cols = x_data.columns[:num_binary_cols].tolist()
+    numerical_cols = x_data.columns[num_binary_cols:].tolist()
+
+    # Create Column Transformer
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ('binary', 'passthrough', binary_cols),
+            ('numerical', StandardScaler(), numerical_cols)
+        ])
+    
+    # Create a pipeline
+    pipeline = Pipeline(steps=[('preprocessor', preprocessor)])
+    
+    # Fit transform x_data
+    x_data = pipeline.fit_transform(x_data)
+
     return np.array(x_data), np.array(y_data)
 
 # Define the objective function for hyperparameter optimization
 def objective(trial, classifier_type, target, data_included):
     # Load the dataset using the custom function
     X, y = read_data(target, data_included)
-
-    # Suggest whether to apply PCA or not
-    pca = trial.suggest_categorical("pca", [True, False])
-    
-    # Standardize the dataset
-    scaler = StandardScaler()
-    X = scaler.fit_transform(X)
-
-    # Apply PCA if selected
-    if pca:
-        pca_model = PCA(n_components=None)
-        X = pca_model.fit_transform(X)
 
     # Define hyperparameter spaces for different classifiers
     if classifier_type == "LogisticRegression":
@@ -68,7 +99,7 @@ def objective(trial, classifier_type, target, data_included):
         n_estimators = trial.suggest_int("n_estimators", 10, 300)
         max_depth = trial.suggest_int("max_depth", 2, 32)
         learning_rate = trial.suggest_float("learning_rate", 0.001, 0.3, log=True)
-        classifier = xgb.XGBClassifier(n_estimators=n_estimators, max_depth=max_depth, learning_rate=learning_rate, eval_metric='logloss', device='cuda:1')
+        classifier = xgb.XGBClassifier(n_estimators=n_estimators, max_depth=max_depth, learning_rate=learning_rate, eval_metric='logloss', device='cpu')
 
     elif classifier_type == "SVC":
         C = trial.suggest_float("C", 1e-5, 1e2, log=True)
@@ -105,28 +136,19 @@ def objective(trial, classifier_type, target, data_included):
     # Calculate mean and standard deviation for all metrics
     mean_auc, std_auc = np.mean(auc_scores), np.std(auc_scores)
     mean_f1, std_f1 = np.mean(f1_scores), np.std(f1_scores)
-    mean_recall, std_recall = np.mean(recall_scores), np.std(recall_scores)
-    mean_precision, std_precision = np.mean(precision_scores), np.std(precision_scores)
-    mean_accuracy, std_accuracy = np.mean(accuracy_scores), np.std(accuracy_scores)
 
     # Store additional metrics in the trial
     trial.set_user_attr("roc_auc_mean", mean_auc)
     trial.set_user_attr("roc_auc_std", std_auc)
     trial.set_user_attr("f1_mean", mean_f1)
     trial.set_user_attr("f1_std", std_f1)
-    trial.set_user_attr("recall_mean", mean_recall)
-    trial.set_user_attr("recall_std", std_recall)
-    trial.set_user_attr("precision_mean", mean_precision)
-    trial.set_user_attr("precision_std", std_precision)
-    trial.set_user_attr("accuracy_mean", mean_accuracy)
-    trial.set_user_attr("accuracy_std", std_accuracy)
 
     # Optimizing for the product of mean ROC AUC and mean F1-score
-    return mean_auc
+    return (1/2)*(mean_auc + mean_f1)
 
 # Create an Optuna study to maximize the product of ROC AUC and F1 score
 def run_optimization_for_classifier(classifier_name, target, data_included, n_trials=500):
-    logging.info(f"Optimising {classifier_name}...")
+    logging.info(f"Optimising {classifier_name} for {target} with {data_included}...")
     study = optuna.create_study(direction="maximize", study_name=f"{classifier_name} optimisation for {target} with {data_included} data.")
     study.optimize(lambda trial: objective(trial, classifier_name, target, data_included), n_trials=n_trials, n_jobs=8)
     
@@ -138,9 +160,6 @@ def run_optimization_for_classifier(classifier_name, target, data_included, n_tr
     logging.info(f"Data included: {data_included}")
     logging.info(f"Best ROC AUC (mean ± std): {best_trial.user_attrs['roc_auc_mean']:.4f} ± {best_trial.user_attrs['roc_auc_std']:.4f}")
     logging.info(f"Best F1 Score (mean ± std): {best_trial.user_attrs['f1_mean']:.4f} ± {best_trial.user_attrs['f1_std']:.4f}")
-    logging.info(f"Best Recall (mean ± std): {best_trial.user_attrs['recall_mean']:.4f} ± {best_trial.user_attrs['recall_std']:.4f}")
-    logging.info(f"Best Precision (mean ± std): {best_trial.user_attrs['precision_mean']:.4f} ± {best_trial.user_attrs['precision_std']:.4f}")
-    logging.info(f"Best Accuracy (mean ± std): {best_trial.user_attrs['accuracy_mean']:.4f} ± {best_trial.user_attrs['accuracy_std']:.4f}")
 
     # Return the metrics of the best trial
     return {
@@ -149,9 +168,6 @@ def run_optimization_for_classifier(classifier_name, target, data_included, n_tr
         "Data included": data_included,
         "Best ROC AUC (mean ± std)": f"{best_trial.user_attrs['roc_auc_mean']:.4f} ± {best_trial.user_attrs['roc_auc_std']:.4f}",
         "Best F1 Score (mean ± std)": f"{best_trial.user_attrs['f1_mean']:.4f} ± {best_trial.user_attrs['f1_std']:.4f}",
-        "Best Recall (mean ± std)": f"{best_trial.user_attrs['recall_mean']:.4f} ± {best_trial.user_attrs['recall_std']:.4f}",
-        "Best Precision (mean ± std)": f"{best_trial.user_attrs['precision_mean']:.4f} ± {best_trial.user_attrs['precision_std']:.4f}",
-        "Best Accuracy (mean ± std)": f"{best_trial.user_attrs['accuracy_mean']:.4f} ± {best_trial.user_attrs['accuracy_std']:.4f}"
     }
 
 # Dictionary to store the results for all classifiers
@@ -159,7 +175,7 @@ results = []
 
 # List of classifiers to optimize
 classifiers = ["LogisticRegression", "RandomForest", "XGBoost", "SVC", "DecisionTree"]
-targets = ["P-LOS", "POMS3>1", "Infectious"]
+targets = ['P-LOS', 'POMS3>1', 'Infectious', 'Pulmonary', 'Renal']
 data_list = ["CHAR", "CHAR+VAT", "CHAR+FULL"]
 
 # Run optimization for each classifier
@@ -167,14 +183,10 @@ data_list = ["CHAR", "CHAR+VAT", "CHAR+FULL"]
 for target in targets:
     for data_included in data_list:
         for classifier_name in classifiers:
-            result = run_optimization_for_classifier(classifier_name, data_included, target, n_trials=500)
+            result = run_optimization_for_classifier(classifier_name, target, data_included, n_trials=200)
             results.append(result)
 
-    # Convert the results dictionary into a DataFrame and save as CSV
-    results_df = pd.DataFrame(results)
+# Convert the results dictionary into a DataFrame and save as CSV
+results_df = pd.DataFrame(results)
 
-    results_df.to_csv(f"metrics_{target}.csv", index=False)
-
-    # Output the best results
-    print(f"Best results saved to metrics_{target}.csv")
-    print(results_df)
+results_df.to_csv(f"metrics.csv", index=False)

@@ -1,0 +1,875 @@
+[I 2025-01-08 16:15:38,271] A new study created in memory with name: LogisticRegression optimisation for P-LOS with CHAR data.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,525] Trial 1 finished with value: 0.25 and parameters: {'C': 0.05347371582036283, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,533] Trial 2 finished with value: 0.25 and parameters: {'C': 3.779445827721172e-05, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,546] Trial 4 finished with value: 0.25 and parameters: {'C': 0.0006558881726744256, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,548] Trial 7 finished with value: 0.25 and parameters: {'C': 0.04558075856987448, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,549] Trial 6 finished with value: 0.25 and parameters: {'C': 1.701363276220108e-05, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+[I 2025-01-08 16:15:38,551] Trial 0 finished with value: 0.25 and parameters: {'C': 0.003945923172078624, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+[I 2025-01-08 16:15:38,553] Trial 5 finished with value: 0.25 and parameters: {'C': 0.002317941185661069, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,558] Trial 3 finished with value: 0.25 and parameters: {'C': 3.771877508262701e-05, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,735] Trial 9 finished with value: 0.25 and parameters: {'C': 0.00015751865552714463, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,789] Trial 11 finished with value: 0.25 and parameters: {'C': 5.3663239537039534e-05, 'penalty': 'l1'}. Best is trial 1 with value: 0.25.
+[I 2025-01-08 16:15:38,791] Trial 8 finished with value: 0.40192238866129476 and parameters: {'C': 85.7049554867671, 'penalty': 'l1'}. Best is trial 8 with value: 0.40192238866129476.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,813] Trial 10 finished with value: 0.5258575556614773 and parameters: {'C': 0.5495945820230358, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:38,826] Trial 13 finished with value: 0.25 and parameters: {'C': 9.167388082953933e-05, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:38,826] Trial 15 finished with value: 0.25 and parameters: {'C': 0.00017038910839218426, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:38,827] Trial 14 finished with value: 0.25 and parameters: {'C': 0.00574198985059586, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:38,833] Trial 12 finished with value: 0.40549613784907906 and parameters: {'C': 43.36065063758449, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,022] Trial 16 finished with value: 0.4102292768959435 and parameters: {'C': 14.375613550464454, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,050] Trial 20 finished with value: 0.4114638447971781 and parameters: {'C': 10.311533623832643, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,065] Trial 17 finished with value: 0.4114638447971781 and parameters: {'C': 11.36390353615675, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,075] Trial 18 finished with value: 0.4012384019630396 and parameters: {'C': 16.69501976031194, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,098] Trial 22 finished with value: 0.40899470899470897 and parameters: {'C': 14.744000037098354, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,111] Trial 19 finished with value: 0.4114638447971781 and parameters: {'C': 10.369766043027093, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,114] Trial 21 finished with value: 0.3916546416546416 and parameters: {'C': 17.78672463784859, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,122] Trial 23 finished with value: 0.40247296986427417 and parameters: {'C': 15.26273706241785, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,277] Trial 25 finished with value: 0.47900334233667563 and parameters: {'C': 1.2715586533048875, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,301] Trial 24 finished with value: 0.4795645095645095 and parameters: {'C': 1.2157272591499886, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,330] Trial 26 finished with value: 0.49247916334872854 and parameters: {'C': 0.9427147172346302, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,369] Trial 27 finished with value: 0.4777687744354411 and parameters: {'C': 1.2634875824800555, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,373] Trial 28 finished with value: 0.4777687744354411 and parameters: {'C': 1.27925772031896, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,382] Trial 30 finished with value: 0.49371373124996315 and parameters: {'C': 0.8854979398079762, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,385] Trial 29 finished with value: 0.482602620138852 and parameters: {'C': 1.089772398696827, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,417] Trial 31 finished with value: 0.49900288004788385 and parameters: {'C': 0.7919383099183114, 'penalty': 'l1'}. Best is trial 10 with value: 0.5258575556614773.
+[I 2025-01-08 16:15:39,539] Trial 32 finished with value: 0.6115227546600096 and parameters: {'C': 0.18583539126275353, 'penalty': 'l1'}. Best is trial 32 with value: 0.6115227546600096.
+[I 2025-01-08 16:15:39,587] Trial 33 finished with value: 0.5623342544395176 and parameters: {'C': 0.35275657180281755, 'penalty': 'l1'}. Best is trial 32 with value: 0.6115227546600096.
+[I 2025-01-08 16:15:39,623] Trial 34 finished with value: 0.5778659611992946 and parameters: {'C': 0.30117430130144096, 'penalty': 'l1'}. Best is trial 32 with value: 0.6115227546600096.
+[I 2025-01-08 16:15:39,647] Trial 35 finished with value: 0.6139349546986286 and parameters: {'C': 0.2306319640656798, 'penalty': 'l1'}. Best is trial 35 with value: 0.6139349546986286.
+[I 2025-01-08 16:15:39,660] Trial 36 finished with value: 0.6262976464730852 and parameters: {'C': 0.2204870969590433, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:39,661] Trial 37 finished with value: 0.6151695225998632 and parameters: {'C': 0.22828884790553558, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:39,680] Trial 38 finished with value: 0.6127573225612442 and parameters: {'C': 0.1904856156249276, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,711] Trial 39 finished with value: 0.6152264583637133 and parameters: {'C': 0.19716463256098427, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,805] Trial 40 finished with value: 0.3464262508122158 and parameters: {'C': 0.10976361041562611, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,871] Trial 41 finished with value: 0.25 and parameters: {'C': 0.010923410239020392, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,896] Trial 42 finished with value: 0.25 and parameters: {'C': 0.008025499996132494, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,922] Trial 45 finished with value: 0.25 and parameters: {'C': 0.011801211111588212, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,959] Trial 44 finished with value: 0.25 and parameters: {'C': 0.010887473078527094, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,967] Trial 43 finished with value: 0.25 and parameters: {'C': 0.016321479472889495, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:39,977] Trial 46 finished with value: 0.25 and parameters: {'C': 0.02045610781420778, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,003] Trial 47 finished with value: 0.25 and parameters: {'C': 0.018860108263388686, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,120] Trial 48 finished with value: 0.4683414554905784 and parameters: {'C': 2.9040798180384253, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,159] Trial 50 finished with value: 0.25 and parameters: {'C': 0.06788520925778951, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,169] Trial 49 finished with value: 0.25 and parameters: {'C': 0.07771641765730272, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,205] Trial 51 finished with value: 0.25 and parameters: {'C': 0.08250721409423656, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,249] Trial 53 finished with value: 0.25 and parameters: {'C': 0.0732028527547958, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,258] Trial 52 finished with value: 0.25 and parameters: {'C': 0.06653137400287343, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,270] Trial 54 finished with value: 0.25 and parameters: {'C': 0.08053164188018179, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,308] Trial 55 finished with value: 0.587808995652133 and parameters: {'C': 0.16832295963520777, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,423] Trial 56 finished with value: 0.6115227546600096 and parameters: {'C': 0.1853474729186081, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,427] Trial 58 finished with value: 0.6152264583637133 and parameters: {'C': 0.19645667831537242, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,440] Trial 57 finished with value: 0.6176386584023323 and parameters: {'C': 0.22503501475763676, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,510] Trial 59 finished with value: 0.25 and parameters: {'C': 0.0024637946881512557, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,535] Trial 61 finished with value: 0.6236670736670737 and parameters: {'C': 0.20803147903623526, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,536] Trial 60 finished with value: 0.5993284493284493 and parameters: {'C': 0.2866432407140055, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,556] Trial 62 finished with value: 0.4660347628330085 and parameters: {'C': 3.3622662929849536, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,590] Trial 63 finished with value: 0.25 and parameters: {'C': 0.002311904262427666, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,705] Trial 64 finished with value: 0.5274583441250108 and parameters: {'C': 0.512156457071868, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,713] Trial 66 finished with value: 0.25 and parameters: {'C': 0.0359401800144645, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,724] Trial 65 finished with value: 0.47211225527587086 and parameters: {'C': 2.713405011505653, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,816] Trial 68 finished with value: 0.25 and parameters: {'C': 0.0371673423904875, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,832] Trial 67 finished with value: 0.25 and parameters: {'C': 0.035770868648341454, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:40,838] Trial 70 finished with value: 0.25 and parameters: {'C': 0.04329283836336139, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,839] Trial 69 finished with value: 0.25 and parameters: {'C': 0.035359416687777256, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,884] Trial 71 finished with value: 0.5323966157299491 and parameters: {'C': 0.49385254911585574, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,973] Trial 73 finished with value: 0.5739329805996471 and parameters: {'C': 0.1467196927118061, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,975] Trial 72 finished with value: 0.5820291469414276 and parameters: {'C': 0.13986799061686608, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:40,999] Trial 74 finished with value: 0.52992747992748 and parameters: {'C': 0.5048482400107716, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:41,098] Trial 75 finished with value: 0.48419753086419753 and parameters: {'C': 0.12384684784811871, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,109] Trial 76 finished with value: 0.603032153032153 and parameters: {'C': 0.26781462264542866, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,112] Trial 78 finished with value: 0.6017975851309185 and parameters: {'C': 0.27538244755583363, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,127] Trial 77 finished with value: 0.5804938271604938 and parameters: {'C': 0.13088218257978948, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,177] Trial 79 finished with value: 0.6014077215831601 and parameters: {'C': 0.2526235703895114, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,274] Trial 80 finished with value: 0.4743286034952702 and parameters: {'C': 2.1684199514934925, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,279] Trial 81 finished with value: 0.4671989738656405 and parameters: {'C': 1.9332711026546403, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,295] Trial 82 finished with value: 0.46789223122556456 and parameters: {'C': 1.637403460497352, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,383] Trial 85 finished with value: 0.4706248997915664 and parameters: {'C': 2.237354314694573, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,401] Trial 83 finished with value: 0.5193257670374376 and parameters: {'C': 0.671306356262965, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,403] Trial 84 finished with value: 0.4755631713965047 and parameters: {'C': 2.0546003199132925, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,453] Trial 86 finished with value: 0.5180911991362029 and parameters: {'C': 0.740573005219861, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,458] Trial 87 finished with value: 0.5270921235627118 and parameters: {'C': 0.5425063157315406, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,568] Trial 88 finished with value: 0.6139918904624788 and parameters: {'C': 0.19131219273137082, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,596] Trial 90 finished with value: 0.6152264583637133 and parameters: {'C': 0.19679683939482637, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,598] Trial 89 finished with value: 0.5539969127688427 and parameters: {'C': 0.41024161229629114, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:41,690] Trial 93 finished with value: 0.6194913292952509 and parameters: {'C': 0.20013681635658626, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,697] Trial 92 finished with value: 0.4205309302172047 and parameters: {'C': 5.118267593447478, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,701] Trial 91 finished with value: 0.5564660485713118 and parameters: {'C': 0.3809665311832264, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:41,736] Trial 95 finished with value: 0.25 and parameters: {'C': 0.09697193744561379, 'penalty': 'l1'}. Best is trial 36 with value: 0.6262976464730852.
+[I 2025-01-08 16:15:41,745] Trial 94 finished with value: 0.6346560846560847 and parameters: {'C': 0.21000395578364683, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:41,872] Trial 96 finished with value: 0.3588044184535413 and parameters: {'C': 0.10133432773007411, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:41,897] Trial 98 finished with value: 0.25 and parameters: {'C': 0.05327580249650968, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:41,932] Trial 97 finished with value: 0.25 and parameters: {'C': 0.053909144241185744, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,008] Trial 101 finished with value: 0.25 and parameters: {'C': 0.051716265641538604, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,028] Trial 100 finished with value: 0.25 and parameters: {'C': 0.058881062955718814, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,037] Trial 102 finished with value: 0.6114658188961595 and parameters: {'C': 0.23627741553303908, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,048] Trial 99 finished with value: 0.25 and parameters: {'C': 0.06116146215929179, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,071] Trial 103 finished with value: 0.6139918904624788 and parameters: {'C': 0.19167373010865962, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,135] Trial 104 finished with value: 0.6127573225612442 and parameters: {'C': 0.19041829308239366, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,218] Trial 105 finished with value: 0.25 and parameters: {'C': 0.024986339776039906, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,286] Trial 106 finished with value: 0.25 and parameters: {'C': 0.023298800656411305, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,333] Trial 107 finished with value: 0.5564660485713118 and parameters: {'C': 0.385438498469506, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,375] Trial 111 finished with value: 0.5610996865382829 and parameters: {'C': 0.3586350577668581, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,391] Trial 109 finished with value: 0.5610996865382829 and parameters: {'C': 0.35613002903575497, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,395] Trial 108 finished with value: 0.5577006164725463 and parameters: {'C': 0.36967938568992476, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,396] Trial 110 finished with value: 0.25 and parameters: {'C': 1.3061081045141824e-05, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,444] Trial 112 finished with value: 0.49001002754625944 and parameters: {'C': 0.9680426636373539, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,538] Trial 113 finished with value: 0.6151695225998632 and parameters: {'C': 0.22867945735953735, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,592] Trial 114 finished with value: 0.63342151675485 and parameters: {'C': 0.2110862505063028, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,623] Trial 115 finished with value: 0.6207258971964855 and parameters: {'C': 0.20415601422210544, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,679] Trial 116 finished with value: 0.6236670736670737 and parameters: {'C': 0.20803802932103307, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,692] Trial 117 finished with value: 0.6207258971964855 and parameters: {'C': 0.2049673782470054, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,699] Trial 118 finished with value: 0.5739329805996471 and parameters: {'C': 0.1449360057764559, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,704] Trial 119 finished with value: 0.6152264583637133 and parameters: {'C': 0.19517817083543088, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,724] Trial 120 finished with value: 0.4610213243546577 and parameters: {'C': 0.11872730192890944, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,835] Trial 121 finished with value: 0.3488953866146849 and parameters: {'C': 0.10698553319975836, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,927] Trial 122 finished with value: 0.5188537263693185 and parameters: {'C': 0.6244420436573711, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,943] Trial 123 finished with value: 0.3588044184535413 and parameters: {'C': 0.10033397791486492, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:42,979] Trial 125 finished with value: 0.3588044184535413 and parameters: {'C': 0.10036985506810009, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,981] Trial 124 finished with value: 0.5258575556614773 and parameters: {'C': 0.5487067940841803, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:42,982] Trial 126 finished with value: 0.5188537263693185 and parameters: {'C': 0.6260977995009689, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,001] Trial 127 finished with value: 0.5193257670374376 and parameters: {'C': 0.6647047235734095, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,027] Trial 128 finished with value: 0.25 and parameters: {'C': 0.086695497322156, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,157] Trial 129 finished with value: 0.5739329805996471 and parameters: {'C': 0.14700717697548216, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,223] Trial 130 finished with value: 0.5787011100736591 and parameters: {'C': 0.16253183637786747, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,243] Trial 133 finished with value: 0.574779541446208 and parameters: {'C': 0.1549969332373554, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,267] Trial 131 finished with value: 0.5735449735449735 and parameters: {'C': 0.150994472350779, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,281] Trial 132 finished with value: 0.5787011100736591 and parameters: {'C': 0.16110271860569605, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,291] Trial 134 finished with value: 0.574779541446208 and parameters: {'C': 0.15501069423937686, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,304] Trial 135 finished with value: 0.5787011100736591 and parameters: {'C': 0.16235521457244903, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,328] Trial 136 finished with value: 0.5993284493284493 and parameters: {'C': 0.2869928952814469, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,458] Trial 137 finished with value: 0.6005630172296839 and parameters: {'C': 0.2841673173177231, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,515] Trial 138 finished with value: 0.6014077215831601 and parameters: {'C': 0.2572602658208154, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,556] Trial 139 finished with value: 0.603032153032153 and parameters: {'C': 0.26866146672149877, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,584] Trial 142 finished with value: 0.612700386797394 and parameters: {'C': 0.24141885748493888, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,586] Trial 141 finished with value: 0.6001731536819257 and parameters: {'C': 0.2607272142413646, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,602] Trial 140 finished with value: 0.6001731536819257 and parameters: {'C': 0.2581060620956716, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,618] Trial 143 finished with value: 0.6102312509949249 and parameters: {'C': 0.2448395940980333, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,636] Trial 144 finished with value: 0.6102312509949249 and parameters: {'C': 0.2434347558020085, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,778] Trial 145 finished with value: 0.5465895053614351 and parameters: {'C': 0.4578815550519386, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,818] Trial 146 finished with value: 0.5564660485713118 and parameters: {'C': 0.39407410382276437, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,850] Trial 148 finished with value: 0.5373348873348873 and parameters: {'C': 0.4709154539514761, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,855] Trial 147 finished with value: 0.5515277769663736 and parameters: {'C': 0.42459377133389037, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,889] Trial 149 finished with value: 0.25 and parameters: {'C': 0.07270807393117681, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:43,896] Trial 150 finished with value: 0.5348657515324182 and parameters: {'C': 0.48472993404531206, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,915] Trial 151 finished with value: 0.5465895053614351 and parameters: {'C': 0.45086840453526456, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:43,936] Trial 152 finished with value: 0.25 and parameters: {'C': 0.07630025060348782, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,071] Trial 153 finished with value: 0.49247916334872854 and parameters: {'C': 0.9521113770359838, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,095] Trial 154 finished with value: 0.6236670736670737 and parameters: {'C': 0.20921583264084334, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,119] Trial 155 finished with value: 0.4986325096775135 and parameters: {'C': 0.8648805523017276, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,134] Trial 156 finished with value: 0.6139918904624788 and parameters: {'C': 0.1921218653357006, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,167] Trial 158 finished with value: 0.6236670736670737 and parameters: {'C': 0.2074928908564492, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,171] Trial 157 finished with value: 0.6207258971964855 and parameters: {'C': 0.2064087112582269, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,205] Trial 159 finished with value: 0.6115227546600096 and parameters: {'C': 0.18772046180306926, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,219] Trial 160 finished with value: 0.6152264583637133 and parameters: {'C': 0.1957718255903032, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,390] Trial 161 finished with value: 0.43000649772579597 and parameters: {'C': 0.112659330756636, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,407] Trial 162 finished with value: 0.5817283950617284 and parameters: {'C': 0.13213985077643906, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,415] Trial 164 finished with value: 0.3588044184535413 and parameters: {'C': 0.0997789052966923, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,434] Trial 163 finished with value: 0.4312410656270305 and parameters: {'C': 0.11343479736157999, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,445] Trial 165 finished with value: 0.4610213243546577 and parameters: {'C': 0.11430742240584267, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,473] Trial 166 finished with value: 0.4854320987654321 and parameters: {'C': 0.12504830227985403, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,498] Trial 168 finished with value: 0.4610213243546577 and parameters: {'C': 0.11697679092095027, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,503] Trial 167 finished with value: 0.4610213243546577 and parameters: {'C': 0.11908727269328169, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,667] Trial 169 finished with value: 0.5546669380002713 and parameters: {'C': 0.33668591629727185, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,705] Trial 171 finished with value: 0.5741622574955909 and parameters: {'C': 0.3110526156574876, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,722] Trial 172 finished with value: 0.6176955941661825 and parameters: {'C': 0.19887662569218617, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,737] Trial 173 finished with value: 0.5741622574955909 and parameters: {'C': 0.3164893404640068, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,743] Trial 170 finished with value: 0.5577006164725463 and parameters: {'C': 0.36716904379357646, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,750] Trial 174 finished with value: 0.25 and parameters: {'C': 0.00023441790051188013, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,786] Trial 175 finished with value: 0.5741622574955909 and parameters: {'C': 0.32367991978666755, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:44,789] Trial 176 finished with value: 0.25 and parameters: {'C': 0.0003077538142594564, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,963] Trial 178 finished with value: 0.610288186758775 and parameters: {'C': 0.18022988540757148, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:44,963] Trial 177 finished with value: 0.6152264583637133 and parameters: {'C': 0.19428455417917118, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,022] Trial 180 finished with value: 0.6207258971964855 and parameters: {'C': 0.20404543687878335, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,030] Trial 179 finished with value: 0.6152264583637133 and parameters: {'C': 0.19599529681997907, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,037] Trial 182 finished with value: 0.6152264583637133 and parameters: {'C': 0.19537873910524348, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,041] Trial 181 finished with value: 0.6207258971964855 and parameters: {'C': 0.20196871899508612, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,072] Trial 184 finished with value: 0.25 and parameters: {'C': 0.08040700049707827, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,090] Trial 183 finished with value: 0.6152264583637133 and parameters: {'C': 0.19683264525859873, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,228] Trial 185 finished with value: 0.5811626644959978 and parameters: {'C': 0.30028672192225003, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,248] Trial 186 finished with value: 0.6262976464730852 and parameters: {'C': 0.22097626403658188, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,285] Trial 187 finished with value: 0.25 and parameters: {'C': 2.797491611187459e-05, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,325] Trial 189 finished with value: 0.594390177723511 and parameters: {'C': 0.29316202274033754, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,344] Trial 190 finished with value: 0.5778659611992946 and parameters: {'C': 0.30161475423343254, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,349] Trial 188 finished with value: 0.5847781847781848 and parameters: {'C': 0.2975170175893305, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,368] Trial 191 finished with value: 0.5778659611992946 and parameters: {'C': 0.30147887204637674, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+/home/tom/miniconda3/envs/nnUNets/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+[I 2025-01-08 16:15:45,372] Trial 192 finished with value: 0.25 and parameters: {'C': 3.640499440139967e-05, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,515] Trial 193 finished with value: 0.63342151675485 and parameters: {'C': 0.21049849106837432, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,525] Trial 195 finished with value: 0.5751675485008818 and parameters: {'C': 0.14775701204018493, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,525] Trial 194 finished with value: 0.5795600111389585 and parameters: {'C': 0.14185107864469945, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,584] Trial 196 finished with value: 0.5795600111389585 and parameters: {'C': 0.14188824921732862, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,599] Trial 199 finished with value: 0.574779541446208 and parameters: {'C': 0.15770120967224968, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,607] Trial 198 finished with value: 0.5735449735449735 and parameters: {'C': 0.1504036672008934, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,612] Trial 197 finished with value: 0.5739329805996471 and parameters: {'C': 0.1445690724293151, 'penalty': 'l1'}. Best is trial 94 with value: 0.6346560846560847.
+[I 2025-01-08 16:15:45,612] A new study created in memory with name: RandomForest optimisation for P-LOS with CHAR data.
+[I 2025-01-08 16:15:48,014] Trial 3 finished with value: 0.5325194123233339 and parameters: {'n_estimators': 57, 'max_depth': 22, 'min_samples_split': 11}. Best is trial 3 with value: 0.5325194123233339.
+[I 2025-01-08 16:15:50,383] Trial 6 finished with value: 0.5761905941616087 and parameters: {'n_estimators': 137, 'max_depth': 18, 'min_samples_split': 5}. Best is trial 6 with value: 0.5761905941616087.
+[I 2025-01-08 16:15:50,440] Trial 2 finished with value: 0.5675417175417176 and parameters: {'n_estimators': 135, 'max_depth': 22, 'min_samples_split': 15}. Best is trial 6 with value: 0.5761905941616087.
+[I 2025-01-08 16:15:50,495] Trial 1 finished with value: 0.5567715585259445 and parameters: {'n_estimators': 133, 'max_depth': 20, 'min_samples_split': 14}. Best is trial 6 with value: 0.5761905941616087.
+[I 2025-01-08 16:15:50,639] Trial 4 finished with value: 0.5814987481654148 and parameters: {'n_estimators': 141, 'max_depth': 20, 'min_samples_split': 13}. Best is trial 4 with value: 0.5814987481654148.
+[I 2025-01-08 16:15:53,020] Trial 12 finished with value: 0.5870416782697484 and parameters: {'n_estimators': 57, 'max_depth': 5, 'min_samples_split': 11}. Best is trial 12 with value: 0.5870416782697484.
+[I 2025-01-08 16:15:53,898] Trial 0 finished with value: 0.5556526987899537 and parameters: {'n_estimators': 273, 'max_depth': 30, 'min_samples_split': 5}. Best is trial 12 with value: 0.5870416782697484.
+[I 2025-01-08 16:15:54,037] Trial 10 finished with value: 0.5578066378066378 and parameters: {'n_estimators': 100, 'max_depth': 29, 'min_samples_split': 8}. Best is trial 12 with value: 0.5870416782697484.
+[I 2025-01-08 16:15:54,771] Trial 5 finished with value: 0.569716216971119 and parameters: {'n_estimators': 295, 'max_depth': 15, 'min_samples_split': 12}. Best is trial 12 with value: 0.5870416782697484.
+[I 2025-01-08 16:15:54,870] Trial 14 finished with value: 0.5052407112056235 and parameters: {'n_estimators': 15, 'max_depth': 2, 'min_samples_split': 11}. Best is trial 12 with value: 0.5870416782697484.
+[I 2025-01-08 16:15:55,088] Trial 7 finished with value: 0.5597112274861635 and parameters: {'n_estimators': 275, 'max_depth': 13, 'min_samples_split': 7}. Best is trial 12 with value: 0.5870416782697484.
+[I 2025-01-08 16:15:55,609] Trial 13 finished with value: 0.6033050309861904 and parameters: {'n_estimators': 69, 'max_depth': 20, 'min_samples_split': 3}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:15:56,876] Trial 15 finished with value: 0.5648324514991181 and parameters: {'n_estimators': 63, 'max_depth': 22, 'min_samples_split': 15}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:15:57,686] Trial 9 finished with value: 0.545965349102604 and parameters: {'n_estimators': 210, 'max_depth': 21, 'min_samples_split': 9}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:15:58,679] Trial 8 finished with value: 0.5646748007945118 and parameters: {'n_estimators': 293, 'max_depth': 4, 'min_samples_split': 6}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:15:58,938] Trial 21 finished with value: 0.5293908382066277 and parameters: {'n_estimators': 16, 'max_depth': 8, 'min_samples_split': 2}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:16:00,328] Trial 11 finished with value: 0.5631594300051248 and parameters: {'n_estimators': 276, 'max_depth': 9, 'min_samples_split': 5}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:16:01,740] Trial 23 finished with value: 0.5189528316623708 and parameters: {'n_estimators': 74, 'max_depth': 10, 'min_samples_split': 2}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:16:02,278] Trial 18 finished with value: 0.5320117845117844 and parameters: {'n_estimators': 201, 'max_depth': 6, 'min_samples_split': 2}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:16:02,824] Trial 17 finished with value: 0.5822975862191548 and parameters: {'n_estimators': 217, 'max_depth': 6, 'min_samples_split': 16}. Best is trial 13 with value: 0.6033050309861904.
+[I 2025-01-08 16:16:02,900] Trial 19 finished with value: 0.614455495563765 and parameters: {'n_estimators': 205, 'max_depth': 7, 'min_samples_split': 2}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:03,547] Trial 16 finished with value: 0.5787529826745512 and parameters: {'n_estimators': 228, 'max_depth': 2, 'min_samples_split': 8}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:03,610] Trial 20 finished with value: 0.6090765662142474 and parameters: {'n_estimators': 198, 'max_depth': 7, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:05,251] Trial 22 finished with value: 0.5822760754133303 and parameters: {'n_estimators': 195, 'max_depth': 10, 'min_samples_split': 2}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:05,386] Trial 25 finished with value: 0.5428483553483554 and parameters: {'n_estimators': 99, 'max_depth': 26, 'min_samples_split': 10}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:05,850] Trial 26 finished with value: 0.567665544332211 and parameters: {'n_estimators': 101, 'max_depth': 27, 'min_samples_split': 10}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:06,535] Trial 24 finished with value: 0.5878483665170973 and parameters: {'n_estimators': 186, 'max_depth': 27, 'min_samples_split': 2}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:08,639] Trial 28 finished with value: 0.5753083631344501 and parameters: {'n_estimators': 173, 'max_depth': 11, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:09,301] Trial 27 finished with value: 0.5623317553142114 and parameters: {'n_estimators': 189, 'max_depth': 12, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:09,791] Trial 29 finished with value: 0.5613403880070547 and parameters: {'n_estimators': 177, 'max_depth': 12, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:09,927] Trial 30 finished with value: 0.5878800212133546 and parameters: {'n_estimators': 184, 'max_depth': 25, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:11,485] Trial 31 finished with value: 0.5937539134030363 and parameters: {'n_estimators': 176, 'max_depth': 13, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:11,736] Trial 32 finished with value: 0.567579365079365 and parameters: {'n_estimators': 174, 'max_depth': 14, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:11,805] Trial 33 finished with value: 0.5539966663841569 and parameters: {'n_estimators': 184, 'max_depth': 14, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:14,666] Trial 34 finished with value: 0.5217491441020852 and parameters: {'n_estimators': 246, 'max_depth': 13, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:16,789] Trial 35 finished with value: 0.5885553952220619 and parameters: {'n_estimators': 238, 'max_depth': 15, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:17,657] Trial 37 finished with value: 0.565617055420977 and parameters: {'n_estimators': 231, 'max_depth': 32, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:17,743] Trial 36 finished with value: 0.5877035916493897 and parameters: {'n_estimators': 246, 'max_depth': 16, 'min_samples_split': 4}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:18,531] Trial 38 finished with value: 0.5863375821709156 and parameters: {'n_estimators': 241, 'max_depth': 24, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:19,430] Trial 40 finished with value: 0.5487586487586488 and parameters: {'n_estimators': 228, 'max_depth': 16, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:19,571] Trial 41 finished with value: 0.582318558634348 and parameters: {'n_estimators': 244, 'max_depth': 17, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:19,746] Trial 39 finished with value: 0.5578660455853438 and parameters: {'n_estimators': 241, 'max_depth': 17, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:19,846] Trial 42 finished with value: 0.5844513457556935 and parameters: {'n_estimators': 153, 'max_depth': 16, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:22,306] Trial 43 finished with value: 0.5697814042230069 and parameters: {'n_estimators': 159, 'max_depth': 18, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:22,978] Trial 45 finished with value: 0.5623964099196297 and parameters: {'n_estimators': 153, 'max_depth': 18, 'min_samples_split': 3}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:23,099] Trial 44 finished with value: 0.6082716049382716 and parameters: {'n_estimators': 154, 'max_depth': 18, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:23,732] Trial 46 finished with value: 0.537818133218591 and parameters: {'n_estimators': 150, 'max_depth': 18, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:24,855] Trial 49 finished with value: 0.587185031822713 and parameters: {'n_estimators': 151, 'max_depth': 20, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:24,895] Trial 47 finished with value: 0.5898427192957637 and parameters: {'n_estimators': 156, 'max_depth': 19, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:24,968] Trial 48 finished with value: 0.5796107014718761 and parameters: {'n_estimators': 158, 'max_depth': 19, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:25,418] Trial 50 finished with value: 0.5731983743577946 and parameters: {'n_estimators': 159, 'max_depth': 8, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:27,363] Trial 53 finished with value: 0.5646357476182038 and parameters: {'n_estimators': 120, 'max_depth': 20, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:27,455] Trial 52 finished with value: 0.5416446208112875 and parameters: {'n_estimators': 130, 'max_depth': 20, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:28,246] Trial 54 finished with value: 0.5694356261022927 and parameters: {'n_estimators': 121, 'max_depth': 20, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:29,244] Trial 51 finished with value: 0.5455203665729982 and parameters: {'n_estimators': 207, 'max_depth': 7, 'min_samples_split': 6}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:29,247] Trial 55 finished with value: 0.566250533374866 and parameters: {'n_estimators': 127, 'max_depth': 7, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:29,298] Trial 57 finished with value: 0.5642561745822615 and parameters: {'n_estimators': 127, 'max_depth': 7, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:29,406] Trial 56 finished with value: 0.5720323685029567 and parameters: {'n_estimators': 124, 'max_depth': 8, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:29,582] Trial 58 finished with value: 0.5878348376387592 and parameters: {'n_estimators': 118, 'max_depth': 21, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:30,645] Trial 63 finished with value: 0.5535670194003528 and parameters: {'n_estimators': 27, 'max_depth': 23, 'min_samples_split': 7}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:30,856] Trial 66 finished with value: 0.597923021060276 and parameters: {'n_estimators': 27, 'max_depth': 4, 'min_samples_split': 7}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:32,801] Trial 68 finished with value: 0.5522348520728743 and parameters: {'n_estimators': 41, 'max_depth': 4, 'min_samples_split': 7}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:33,830] Trial 67 finished with value: 0.5919826723748293 and parameters: {'n_estimators': 77, 'max_depth': 4, 'min_samples_split': 7}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:34,097] Trial 59 finished with value: 0.5755592685417247 and parameters: {'n_estimators': 204, 'max_depth': 23, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:34,150] Trial 60 finished with value: 0.5544970688830337 and parameters: {'n_estimators': 202, 'max_depth': 22, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:35,126] Trial 61 finished with value: 0.5521480988147656 and parameters: {'n_estimators': 206, 'max_depth': 23, 'min_samples_split': 5}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:35,976] Trial 64 finished with value: 0.5781428142625253 and parameters: {'n_estimators': 212, 'max_depth': 23, 'min_samples_split': 7}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:36,029] Trial 69 finished with value: 0.5628320266478161 and parameters: {'n_estimators': 79, 'max_depth': 3, 'min_samples_split': 8}. Best is trial 19 with value: 0.614455495563765.
+[I 2025-01-08 16:16:36,358] Trial 72 finished with value: 0.6186477232968461 and parameters: {'n_estimators': 60, 'max_depth': 4, 'min_samples_split': 8}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:36,452] Trial 62 finished with value: 0.5721243019488633 and parameters: {'n_estimators': 214, 'max_depth': 4, 'min_samples_split': 7}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:36,977] Trial 70 finished with value: 0.5841301907968575 and parameters: {'n_estimators': 83, 'max_depth': 3, 'min_samples_split': 8}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:37,008] Trial 71 finished with value: 0.5859461461215847 and parameters: {'n_estimators': 80, 'max_depth': 3, 'min_samples_split': 8}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:37,802] Trial 75 finished with value: 0.5930564180306183 and parameters: {'n_estimators': 42, 'max_depth': 5, 'min_samples_split': 9}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:37,886] Trial 74 finished with value: 0.5356586918181121 and parameters: {'n_estimators': 51, 'max_depth': 5, 'min_samples_split': 9}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:37,888] Trial 73 finished with value: 0.5790941230156916 and parameters: {'n_estimators': 72, 'max_depth': 3, 'min_samples_split': 9}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:37,986] Trial 76 finished with value: 0.5940555091432285 and parameters: {'n_estimators': 42, 'max_depth': 6, 'min_samples_split': 9}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:38,063] Trial 65 finished with value: 0.555481707834649 and parameters: {'n_estimators': 262, 'max_depth': 23, 'min_samples_split': 7}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:38,363] Trial 77 finished with value: 0.5865714608582648 and parameters: {'n_estimators': 49, 'max_depth': 5, 'min_samples_split': 9}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:38,961] Trial 78 finished with value: 0.531044714181969 and parameters: {'n_estimators': 51, 'max_depth': 5, 'min_samples_split': 9}. Best is trial 72 with value: 0.6186477232968461.
+[I 2025-01-08 16:16:39,004] Trial 80 finished with value: 0.6268658574540927 and parameters: {'n_estimators': 20, 'max_depth': 10, 'min_samples_split': 10}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,036] Trial 82 finished with value: 0.5480873577364807 and parameters: {'n_estimators': 23, 'max_depth': 10, 'min_samples_split': 10}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,089] Trial 81 finished with value: 0.5676719576719577 and parameters: {'n_estimators': 26, 'max_depth': 9, 'min_samples_split': 10}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,311] Trial 79 finished with value: 0.5313319981776929 and parameters: {'n_estimators': 64, 'max_depth': 5, 'min_samples_split': 10}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,383] Trial 83 finished with value: 0.5330957866045585 and parameters: {'n_estimators': 33, 'max_depth': 10, 'min_samples_split': 10}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,507] Trial 84 finished with value: 0.580834219386851 and parameters: {'n_estimators': 31, 'max_depth': 9, 'min_samples_split': 10}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,510] Trial 85 finished with value: 0.5788756613756614 and parameters: {'n_estimators': 23, 'max_depth': 10, 'min_samples_split': 2}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:39,820] Trial 89 finished with value: 0.48486796666621224 and parameters: {'n_estimators': 12, 'max_depth': 6, 'min_samples_split': 12}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:40,225] Trial 90 finished with value: 0.5047089947089947 and parameters: {'n_estimators': 11, 'max_depth': 6, 'min_samples_split': 12}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:40,403] Trial 91 finished with value: 0.5445561700463661 and parameters: {'n_estimators': 15, 'max_depth': 6, 'min_samples_split': 11}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:40,443] Trial 86 finished with value: 0.6093809775274306 and parameters: {'n_estimators': 35, 'max_depth': 6, 'min_samples_split': 11}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:40,494] Trial 88 finished with value: 0.5454718121384787 and parameters: {'n_estimators': 35, 'max_depth': 6, 'min_samples_split': 12}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:41,447] Trial 87 finished with value: 0.5517683096630466 and parameters: {'n_estimators': 63, 'max_depth': 6, 'min_samples_split': 2}. Best is trial 80 with value: 0.6268658574540927.
+[I 2025-01-08 16:16:43,044] Trial 97 finished with value: 0.6353034421145877 and parameters: {'n_estimators': 61, 'max_depth': 11, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:43,544] Trial 94 finished with value: 0.6047759647759647 and parameters: {'n_estimators': 91, 'max_depth': 2, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:44,929] Trial 100 finished with value: 0.5922292768959436 and parameters: {'n_estimators': 38, 'max_depth': 2, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:45,928] Trial 92 finished with value: 0.5649194088409775 and parameters: {'n_estimators': 194, 'max_depth': 6, 'min_samples_split': 13}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:45,987] Trial 96 finished with value: 0.5456196889530223 and parameters: {'n_estimators': 168, 'max_depth': 11, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:46,079] Trial 93 finished with value: 0.5450970017636685 and parameters: {'n_estimators': 195, 'max_depth': 6, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:46,142] Trial 95 finished with value: 0.6112983312983313 and parameters: {'n_estimators': 171, 'max_depth': 2, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:46,310] Trial 98 finished with value: 0.5532793262617823 and parameters: {'n_estimators': 168, 'max_depth': 12, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:46,863] Trial 101 finished with value: 0.5635130636942232 and parameters: {'n_estimators': 92, 'max_depth': 8, 'min_samples_split': 13}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:47,653] Trial 99 finished with value: 0.5799811372360393 and parameters: {'n_estimators': 195, 'max_depth': 11, 'min_samples_split': 11}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:48,579] Trial 102 finished with value: 0.5701039636127356 and parameters: {'n_estimators': 87, 'max_depth': 2, 'min_samples_split': 13}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:49,219] Trial 104 finished with value: 0.5768980604687519 and parameters: {'n_estimators': 94, 'max_depth': 2, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:49,369] Trial 108 finished with value: 0.5608727205218433 and parameters: {'n_estimators': 60, 'max_depth': 4, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:49,372] Trial 103 finished with value: 0.5862289562289562 and parameters: {'n_estimators': 88, 'max_depth': 2, 'min_samples_split': 12}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:49,630] Trial 107 finished with value: 0.5607321847291336 and parameters: {'n_estimators': 93, 'max_depth': 8, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:49,650] Trial 105 finished with value: 0.5941225749559083 and parameters: {'n_estimators': 92, 'max_depth': 2, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:49,677] Trial 109 finished with value: 0.5931684218964921 and parameters: {'n_estimators': 56, 'max_depth': 4, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:52,153] Trial 115 finished with value: 0.5326320157692706 and parameters: {'n_estimators': 66, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:52,222] Trial 116 finished with value: 0.5891929467161666 and parameters: {'n_estimators': 70, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:52,865] Trial 111 finished with value: 0.5811162983712003 and parameters: {'n_estimators': 110, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:53,237] Trial 112 finished with value: 0.592996071214315 and parameters: {'n_estimators': 109, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:53,463] Trial 114 finished with value: 0.5480967543712643 and parameters: {'n_estimators': 106, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:54,362] Trial 106 finished with value: 0.5776236484932138 and parameters: {'n_estimators': 221, 'max_depth': 2, 'min_samples_split': 13}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:56,200] Trial 118 finished with value: 0.5808497675164341 and parameters: {'n_estimators': 113, 'max_depth': 3, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:56,251] Trial 117 finished with value: 0.576931216931217 and parameters: {'n_estimators': 109, 'max_depth': 3, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:56,327] Trial 113 finished with value: 0.5824274490941157 and parameters: {'n_estimators': 220, 'max_depth': 7, 'min_samples_split': 3}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:56,539] Trial 119 finished with value: 0.5668885911852664 and parameters: {'n_estimators': 106, 'max_depth': 3, 'min_samples_split': 8}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:56,937] Trial 110 finished with value: 0.6081942748609415 and parameters: {'n_estimators': 221, 'max_depth': 2, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:58,243] Trial 120 finished with value: 0.5531393298059966 and parameters: {'n_estimators': 143, 'max_depth': 3, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:58,287] Trial 125 finished with value: 0.5938323015515998 and parameters: {'n_estimators': 46, 'max_depth': 21, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:58,358] Trial 123 finished with value: 0.6186958136080943 and parameters: {'n_estimators': 53, 'max_depth': 15, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:58,506] Trial 126 finished with value: 0.5490103415103416 and parameters: {'n_estimators': 49, 'max_depth': 21, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:16:59,220] Trial 122 finished with value: 0.5410345034700039 and parameters: {'n_estimators': 138, 'max_depth': 3, 'min_samples_split': 8}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:17:00,382] Trial 128 finished with value: 0.5403042328042329 and parameters: {'n_estimators': 54, 'max_depth': 17, 'min_samples_split': 4}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:17:00,468] Trial 129 finished with value: 0.578466440966441 and parameters: {'n_estimators': 55, 'max_depth': 15, 'min_samples_split': 4}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:17:00,705] Trial 130 finished with value: 0.570392156862745 and parameters: {'n_estimators': 54, 'max_depth': 4, 'min_samples_split': 4}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:17:00,782] Trial 121 finished with value: 0.5718506257721945 and parameters: {'n_estimators': 223, 'max_depth': 4, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:17:00,893] Trial 131 finished with value: 0.6003860028860029 and parameters: {'n_estimators': 56, 'max_depth': 19, 'min_samples_split': 4}. Best is trial 97 with value: 0.6353034421145877.
+[I 2025-01-08 16:17:01,058] Trial 124 finished with value: 0.553838229957941 and parameters: {'n_estimators': 138, 'max_depth': 17, 'min_samples_split': 2}. Best is trial 97 with value: 0.6353034421145877.

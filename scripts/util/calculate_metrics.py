@@ -51,6 +51,8 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
             metrics['nsd'].append(nsd_score_3d(mask_numpy, pred_numpy, tolerance=2))
             metrics['precision'].append(precision_score(mask_numpy, pred_numpy))
             metrics['recall'].append(sensitivity_score(mask_numpy, pred_numpy))
+            
+            print(f"SCAN: {ground_truth_filename}, Unbounded DC: {dice_score(pred_numpy.astype(int), mask_numpy.astype(int))}")
 
             # --- Bounded Region Metrics ---
             lower_z_bound = np.max(np.where(full_pred_numpy == 26)[2])
@@ -65,6 +67,8 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
             pred_bounded[:, :, upper_z_bound + 1:] = False
 
             metrics['dice_bounded'].append(dice_score(pred_bounded.astype(int), mask_bounded.astype(int)))
+            
+            print(f"SCAN: {ground_truth_filename}, Bounded DC: {dice_score(pred_bounded.astype(int), mask_bounded.astype(int))}")
             metrics['nsd_bounded'].append(nsd_score_3d(mask_bounded, pred_bounded, tolerance=2))
             metrics['precision_bounded'].append(precision_score(mask_bounded, pred_bounded))
             metrics['recall_bounded'].append(sensitivity_score(mask_bounded, pred_bounded))
@@ -77,7 +81,6 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
                 'std': np.std(metric_values)
             }
         results[technique_name] = summary_metrics  # Use technique name as the key
-        print(summary_metrics)
 
     # Create DataFrames for CSV output
     metrics_names = ['dice', 'nsd', 'precision', 'recall']
@@ -96,8 +99,8 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
                 df_bounded.loc[metric_name, technique_name] = f"{metrics[metric_name]['mean']:.4f} +/- {metrics[metric_name]['std']:.4f}"
 
     # Write DataFrames to CSV files
-    df_unbounded.to_csv(f"{output_prefix}_unbounded.csv")
-    df_bounded.to_csv(f"{output_prefix}_bounded.csv")
+    #df_unbounded.to_csv(f"{output_prefix}_unbounded.csv")
+    #df_bounded.to_csv(f"{output_prefix}_bounded.csv")
 
     return results
 
@@ -107,7 +110,7 @@ script_dir = os.path.dirname(script_path)
 
 ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "vat", "ground_truth")
 full_pred_dir = os.path.join(script_dir, "..", "..", "data", "umamba_predictions")
-base_dirs = [os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS")]#,os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS_full_volume")]#, os.path.join(script_dir, "..","..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "TotalSegmentator")]
+base_dirs = [os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS_just15")]#,os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS_full_volume")]#, os.path.join(script_dir, "..","..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "TotalSegmentator")]
 #o
 
 pred_dirs_list = get_pred_dirs(base_dirs)
