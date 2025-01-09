@@ -12,7 +12,6 @@ from sklearn.svm import SVC
 from sklearn.decomposition import PCA
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from imblearn.over_sampling import SMOTE
 import logging
 import os
 
@@ -87,10 +86,6 @@ def read_data(target, data_included):
 def objective(trial, classifier_type, target, data_included):
     # Load the dataset using the custom function
     X, y = read_data(target, data_included)
-    
-    # Standardize the dataset
-    """  scaler = StandardScaler()
-    X = scaler.fit_transform(X) """
     
     # Suggest whether to apply PCA or not
     pca = trial.suggest_categorical("pca", [True, False])
