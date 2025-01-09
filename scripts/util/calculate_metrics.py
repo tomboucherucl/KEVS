@@ -4,7 +4,7 @@ import nibabel as nib
 from tqdm import tqdm
 import pandas as pd
 
-from metrics import nsd_score_3d, dice_score, sensitivity_score, precision_score
+from .metrics import nsd_score_3d, dice_score, sensitivity_score, precision_score
 
 def get_pred_dirs(base_dirs):
     """Gets a list of prediction directories."""
@@ -15,7 +15,17 @@ def get_pred_dirs(base_dirs):
                 pred_dirs.append(root)
     return pred_dirs
 
-def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_prefix="metrics_results"):
+def calc_metrics():
+    #Get path to current script and dir
+    script_path = os.path.abspath(__file__)
+    script_dir = os.path.dirname(script_path)
+
+    ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "ground_truth")
+    full_pred_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "umamba_predictions")
+    base_dirs = [os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..","..", "data","testing", "predictions", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "predictions", "TotalSegmentator")]
+    #o
+
+    pred_dirs_list = get_pred_dirs(base_dirs)
     results = {}
 
     for pred_dir in tqdm(sorted(pred_dirs_list), desc="Processing prediction directories"):
@@ -98,23 +108,13 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
                 df_bounded.loc[metric_name, technique_name] = f"{metrics[metric_name]['mean']:.4f} +/- {metrics[metric_name]['std']:.4f}"
 
     # Write DataFrames to CSV files
-    df_unbounded.to_csv(f"{output_prefix}_unbounded.csv")
-    df_bounded.to_csv(f"{output_prefix}_bounded.csv")
+    df_unbounded.to_csv(f"full_scan_unbounded.csv")
+    df_bounded.to_csv(f"full_scan_bounded.csv")
 
     return results
 
-#Get path to current script and dir
-script_path = os.path.abspath(__file__)
-script_dir = os.path.dirname(script_path)
-
-ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "ground_truth")
-full_pred_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "umamba_predictions")
-base_dirs = [os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..","..", "data","testing", "predictions", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "predictions", "TotalSegmentator")]
-#o
-
-pred_dirs_list = get_pred_dirs(base_dirs)
-
-metrics_results = calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list)
+if __name__ == "__main__":
+    calc_metrics()
 
 
 

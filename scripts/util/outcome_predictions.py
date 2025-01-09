@@ -180,23 +180,23 @@ def run_optimization_for_classifier(classifier_name, target, data_included, n_tr
         "Best F1 Score (mean ± std)": f"{best_trial.user_attrs['f1_mean']:.4f} ± {best_trial.user_attrs['f1_std']:.4f}",
     }
 
-# Dictionary to store the results for all classifiers
-results = []
+def run_predictions():
+    # Dictionary to store the results for all classifiers
+    results = []
 
-# List of classifiers to optimize
-classifiers = ["LogisticRegression", "RandomForest", "SVC", "DecisionTree", "XGBoost"]
-targets = ['Pulmonary', 'Renal', 'Infectious' ]#]
-data_list = ["CHAR", "CHAR+VAT", "CHAR+FULL"]
+    # List of classifiers to optimize
+    classifiers = ["LogisticRegression", "RandomForest", "SVC", "DecisionTree", "XGBoost"]
+    targets = ['Pulmonary', 'Renal', 'Infectious' ]
+    data_list = ["CHAR", "CHAR+VAT", "CHAR+FULL"]
 
-# Run optimization for each classifier
+    # Run optimization for each classifier
+    for target in targets:
+        for classifier_name in classifiers:
+            for data_included in data_list:
+                result = run_optimization_for_classifier(classifier_name, target, data_included, n_trials=200)
+                results.append(result)
 
-for target in targets:
-    for classifier_name in classifiers:
-        for data_included in data_list:
-            result = run_optimization_for_classifier(classifier_name, target, data_included, n_trials=200)
-            results.append(result)
+    # Convert the results dictionary into a DataFrame and save as CSV
+    results_df = pd.DataFrame(results)
 
-# Convert the results dictionary into a DataFrame and save as CSV
-results_df = pd.DataFrame(results)
-
-results_df.to_csv(f"metrics.csv", index=False)
+    results_df.to_csv(f"metrics.csv", index=False)

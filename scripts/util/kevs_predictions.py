@@ -3,7 +3,7 @@ import nibabel as nib
 import torch
 import numpy as np
 from scipy.stats import gaussian_kde
-from util.erode_sat import binary_erode_from_exterior_2d
+from .erode_sat import binary_erode_from_exterior_2d
 import subprocess
 import time
 import os

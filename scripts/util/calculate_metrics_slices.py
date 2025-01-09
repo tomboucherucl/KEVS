@@ -8,10 +8,17 @@ import pandas as pd
 import json
 import itertools
 
-from metrics import nsd_score_2d, dice_score, sensitivity_score, precision_score
+from .metrics import nsd_score_2d, dice_score, sensitivity_score, precision_score
 
 
-def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs_file, output_prefix="metrics_results"):
+def calculate_stat_significance():
+    # --- Example usage ---
+    script_path = os.path.abspath(__file__)
+    script_dir = os.path.dirname(script_path)
+
+    ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "ground_truth")
+    full_pred_dir = os.path.join(script_dir, "..", "..", "data", "testing" "umamba_predictions")
+    pred_dirs_file = os.path.join(script_dir, "mrn_associations.json")
     # Load MRN associations from JSON file
     with open(pred_dirs_file, 'r') as f:
         pred_dirs = json.load(f)
@@ -132,19 +139,12 @@ def calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs
             df.loc[metric_name, 'Wilcoxon_greater_p_value'] = wilcoxon_results[metric_name]['greater_p_value']
 
         # Write DataFrame to CSV file
-        df.to_csv(f"{output_prefix}_{technique1}_vs_{technique2}.csv")
+        df.to_csv(f"axial_slices_{technique1}_vs_{technique2}.csv")
 
     return results
 
-# --- Example usage ---
-script_path = os.path.abspath(__file__)
-script_dir = os.path.dirname(script_path)
-
-ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "ground_truth")
-full_pred_dir = os.path.join(script_dir, "..", "..", "data", "testing" "umamba_predictions")
-pred_dirs_file = os.path.join(script_dir, "mrn_associations.json")
-
 # Call the function
-results = calculate_metrics_slices_pairwise(full_pred_dir, ground_truth_dir, pred_dirs_file, output_prefix="metrics_results_axial")
+if __name__ == "__main__":
+    calculate_stat_significance()
 
 
