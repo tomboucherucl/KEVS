@@ -19,8 +19,7 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
     results = {}
 
     for pred_dir in tqdm(sorted(pred_dirs_list), desc="Processing prediction directories"):
-        # Extract technique name from the last part of the path
-        technique_name = os.path.basename(pred_dir)  # Get the last part of the path
+        technique_name = os.path.basename(pred_dir)
 
         metrics = {'dice': [], 'nsd': [], 'precision': [], 'recall': [],
                    'dice_bounded': [], 'nsd_bounded': [], 'precision_bounded': [], 'recall_bounded': []}
@@ -99,8 +98,8 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
                 df_bounded.loc[metric_name, technique_name] = f"{metrics[metric_name]['mean']:.4f} +/- {metrics[metric_name]['std']:.4f}"
 
     # Write DataFrames to CSV files
-    #df_unbounded.to_csv(f"{output_prefix}_unbounded.csv")
-    #df_bounded.to_csv(f"{output_prefix}_bounded.csv")
+    df_unbounded.to_csv(f"{output_prefix}_unbounded.csv")
+    df_bounded.to_csv(f"{output_prefix}_bounded.csv")
 
     return results
 
@@ -108,9 +107,9 @@ def calculate_metrics(ground_truth_dir, full_pred_dir, pred_dirs_list, output_pr
 script_path = os.path.abspath(__file__)
 script_dir = os.path.dirname(script_path)
 
-ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "vat", "ground_truth")
-full_pred_dir = os.path.join(script_dir, "..", "..", "data", "umamba_predictions")
-base_dirs = [os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS_just15")]#,os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "KEVS_full_volume")]#, os.path.join(script_dir, "..","..", "data", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "vat", "predictions", "TotalSegmentator")]
+ground_truth_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "ground_truth")
+full_pred_dir = os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "umamba_predictions")
+base_dirs = [os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "predictions", "KEVS"), os.path.join(script_dir, "..","..", "data","testing", "predictions", "vat", "predictions", "thresholding"), os.path.join(script_dir, "..", "..", "data", "testing", "predictions", "vat", "predictions", "TotalSegmentator")]
 #o
 
 pred_dirs_list = get_pred_dirs(base_dirs)

@@ -4,13 +4,15 @@ import pandas as pd
 import xgboost as xgb
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import roc_auc_score, f1_score, accuracy_score, precision_score, recall_score
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
+from sklearn.decomposition import PCA
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
+from imblearn.over_sampling import SMOTE
 import logging
 import os
 
@@ -19,7 +21,7 @@ logging.basicConfig(filename='outcome_predictions.log', level=logging.INFO, form
 def read_data(target, data_included):
     """Reads data from Excel and prepares it for modeling."""
     
-    csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "csv", f"Nifti_info.csv")
+    csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "csv", f"for_ipcai.csv")
     try:
         data = pd.read_csv(csv_path)
     except FileNotFoundError:
@@ -43,10 +45,11 @@ def read_data(target, data_included):
 
     y_data = data[target_columns[target]]
     
+    
     # Define feature column groupings based on the number of columns to drop
     num_cols_to_drop = {
-        'CHAR': 89,
-        'CHAR+VAT': 77,
+        'CHAR': 107,
+        'CHAR+VAT': 101,
         'CHAR+FULL': 5
     }
 
@@ -58,14 +61,17 @@ def read_data(target, data_included):
     x_data = data.iloc[:, :-num_cols_to_drop[data_included]]
 
     # Dynamically determine column types based on the actual columns in x_data
-    num_binary_cols = 22
+    num_binary_cols = 24
+    num_categorical_cols = 5
     binary_cols = x_data.columns[:num_binary_cols].tolist()
-    numerical_cols = x_data.columns[num_binary_cols:].tolist()
+    categorical_cols = x_data.columns[num_binary_cols:num_binary_cols+num_categorical_cols].tolist()
+    numerical_cols = x_data.columns[num_binary_cols+num_categorical_cols:].tolist()
 
     # Create Column Transformer
     preprocessor = ColumnTransformer(
         transformers=[
             ('binary', 'passthrough', binary_cols),
+            ('categorical', 'passthrough', categorical_cols),
             ('numerical', StandardScaler(), numerical_cols)
         ])
     
@@ -81,6 +87,18 @@ def read_data(target, data_included):
 def objective(trial, classifier_type, target, data_included):
     # Load the dataset using the custom function
     X, y = read_data(target, data_included)
+    
+    # Standardize the dataset
+    """  scaler = StandardScaler()
+    X = scaler.fit_transform(X) """
+    
+    # Suggest whether to apply PCA or not
+    pca = trial.suggest_categorical("pca", [True, False])
+
+    # Apply PCA if selected
+    if pca:
+        pca_model = PCA(n_components=None)
+        X = pca_model.fit_transform(X)
 
     # Define hyperparameter spaces for different classifiers
     if classifier_type == "LogisticRegression":
@@ -113,7 +131,7 @@ def objective(trial, classifier_type, target, data_included):
 
     # Perform cross-validation
     kf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-    auc_scores, f1_scores, recall_scores, precision_scores, accuracy_scores = [], [], [], [], []
+    auc_scores, f1_scores = [], []
 
     for train_index, test_index in kf.split(X, y):
         X_train, X_test = X[train_index], X[test_index]
@@ -129,9 +147,6 @@ def objective(trial, classifier_type, target, data_included):
         # Evaluate metrics
         auc_scores.append(roc_auc_score(y_test, y_pred_proba))
         f1_scores.append(f1_score(y_test, y_pred))
-        recall_scores.append(recall_score(y_test, y_pred))
-        precision_scores.append(precision_score(y_test, y_pred))
-        accuracy_scores.append(accuracy_score(y_test, y_pred))
 
     # Calculate mean and standard deviation for all metrics
     mean_auc, std_auc = np.mean(auc_scores), np.std(auc_scores)
@@ -144,7 +159,7 @@ def objective(trial, classifier_type, target, data_included):
     trial.set_user_attr("f1_std", std_f1)
 
     # Optimizing for the product of mean ROC AUC and mean F1-score
-    return (1/2)*(mean_auc + mean_f1)
+    return (mean_auc + mean_f1)/2
 
 # Create an Optuna study to maximize the product of ROC AUC and F1 score
 def run_optimization_for_classifier(classifier_name, target, data_included, n_trials=500):
@@ -174,15 +189,15 @@ def run_optimization_for_classifier(classifier_name, target, data_included, n_tr
 results = []
 
 # List of classifiers to optimize
-classifiers = ["LogisticRegression", "RandomForest", "XGBoost", "SVC", "DecisionTree"]
-targets = ['P-LOS', 'POMS3>1', 'Infectious', 'Pulmonary', 'Renal']
+classifiers = ["LogisticRegression", "RandomForest", "SVC", "DecisionTree", "XGBoost"]
+targets = ['Pulmonary', 'Renal', 'Infectious' ]#]
 data_list = ["CHAR", "CHAR+VAT", "CHAR+FULL"]
 
 # Run optimization for each classifier
 
 for target in targets:
-    for data_included in data_list:
-        for classifier_name in classifiers:
+    for classifier_name in classifiers:
+        for data_included in data_list:
             result = run_optimization_for_classifier(classifier_name, target, data_included, n_trials=200)
             results.append(result)
 

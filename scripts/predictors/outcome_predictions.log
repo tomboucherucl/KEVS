@@ -1,7 +1,0 @@
-2025-01-08 16:15:38,271 Optimising LogisticRegression for P-LOS with CHAR...
-2025-01-08 16:15:45,612 Classifier: LogisticRegression
-2025-01-08 16:15:45,612 Target: P-LOS
-2025-01-08 16:15:45,612 Data included: CHAR
-2025-01-08 16:15:45,612 Best ROC AUC (mean ± std): 0.6519 ± 0.0778
-2025-01-08 16:15:45,612 Best F1 Score (mean ± std): 0.6175 ± 0.0961
-2025-01-08 16:15:45,612 Optimising RandomForest for P-LOS with CHAR...
