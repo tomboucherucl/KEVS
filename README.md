@@ -22,3 +22,14 @@ For using U-Mamba to make predictions
 7. Uncomment #predict_vat() in main.py
 8. Download the scans and abdominal cavity masks from (add url)
 9. run main.py
+
+If you use KEVS or the associated UCLH-Cyst dataset in your research, please cite:
+@misc{boucher2025kevsenhancingsegmentationvisceral,
+      title={KEVS: Enhancing Segmentation of Visceral Adipose Tissue in Pre-Cystectomy CT with Gaussian Kernel Density Estimation}, 
+      author={Thomas Boucher and Nicholas Tetlow and Annie Fung and Amy Dewar and Pietro Arina and Sven Kerneis and John Whittle and Evangelos B. Mazomenos},
+      year={2025},
+      eprint={2503.22592},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2503.22592}, 
+}
